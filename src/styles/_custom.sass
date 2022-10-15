@@ -23,6 +23,36 @@
   right: -4rem
   z-index: 1
 
+.crd--avatarHorizontal 
+  position: relative
+  padding-right: 12rem
+
+
+.crd--first:before, .crd--last:before 
+  background-color: #ddedf8!important
+
+
+.crd--first:before 
+  border-top-left-radius: 30px
+
+
+.crd--avatarHorizontal:before 
+  position: absolute
+  content: ""
+  top: 0
+  right: 0
+  width: calc(100% - 60px)
+  height: 100%
+  background-color: #c5e5fe
+
+
+.crd--last:before 
+  border-bottom-left-radius: 30px;
+  
+.crd--first:before, .crd--last:before 
+  background-color: #ddedf8!important
+
+
 .back-yellow
   background-color: #FFEDB8 !important
   width: 80%
@@ -54,6 +84,10 @@
 
 .tabla-b.color-acento-contenido .tabla-b__header, .color-acento-contenido.tabla-c .tabla-b__header 
   background-color: #4DD0E1 !important
+  height: 50px !important
+
+.tabla-b th 
+  width: auto !important
 
 .tabla-a thead
   border-top: 0 !important
@@ -79,3 +113,6 @@
 
 .lista-ol--cuadro__vineta
   background-color: #4DD0E1 !important
+
+.no-padding
+  padding: 0px !important

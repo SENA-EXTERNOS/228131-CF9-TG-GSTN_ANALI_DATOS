@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="899" height="479" viewBox="0 0 899 479">
+  <g id="Group_136812" data-name="Group 136812" transform="translate(3583 7596)">
+    <line id="Line_273" data-name="Line 273" y1="66" x2="230" transform="translate(-3376 -7472)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_276" data-name="Line 276" y1="216" transform="translate(-3376 -7364)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_277" data-name="Line 277" y1="216" transform="translate(-2895 -7364)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_278" data-name="Line 278" x1="180" y1="67" transform="translate(-2926 -7272)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_280" data-name="Line 280" x1="180" y1="67" transform="translate(-3409 -7272)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_279" data-name="Line 279" y1="54" x2="109" transform="translate(-3004 -7259)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_281" data-name="Line 281" y1="54" x2="109" transform="translate(-3487 -7259)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_275" data-name="Line 275" x2="360" transform="translate(-3324 -7282)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_274" data-name="Line 274" x1="255" y1="66" transform="translate(-3147 -7472)" fill="none" stroke="#707070" stroke-width="2"/>
+    <path id="Path_193557" data-name="Path 193557" d="M73.026.053,58.694,6.064.169,30.612,73.026,60.819l71.967-30.207Z" transform="translate(-2967.081 -7408.436)" fill="#fff" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_193558" data-name="Path 193558" d="M73.026.053,58.694,6.064.169,30.612,73.026,60.819l71.967-30.207Z" transform="translate(-3449.081 -7408.436)" fill="#fff" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_193559" data-name="Path 193559" d="M73.026.053,58.694,6.064.169,30.612,73.026,60.819l71.967-30.207Z" transform="translate(-3206.581 -7313.053)" fill="#fff" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_270" data-name="Line 270" y2="92" transform="translate(-3146.5 -7564.5)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_271" data-name="Line 271" x1="78" y2="47" transform="translate(-3080 -7511)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_272" data-name="Line 272" x2="75" y2="31" transform="translate(-3312 -7503)" fill="none" stroke="#707070" stroke-width="2"/>
+    <ellipse id="Ellipse_5066" data-name="Ellipse 5066" cx="62" cy="31" rx="62" ry="31" transform="translate(-3100 -7216)" fill="#feca2e"/>
+    <ellipse id="Ellipse_5067" data-name="Ellipse 5067" cx="62.5" cy="31" rx="62.5" ry="31" transform="translate(-3583 -7216)" fill="#feca2e"/>
+    <ellipse id="Ellipse_5056" data-name="Ellipse 5056" cx="56.5" cy="20.5" rx="56.5" ry="20.5" transform="translate(-3386 -7533)" fill="#feca2e"/>
+    <ellipse id="Ellipse_5062" data-name="Ellipse 5062" cx="62" cy="31" rx="62" ry="31" transform="translate(-2957 -7179)" fill="#feca2e"/>
+    <ellipse id="Ellipse_5068" data-name="Ellipse 5068" cx="62" cy="31" rx="62" ry="31" transform="translate(-3438 -7179)" fill="#feca2e"/>
+    <ellipse id="Ellipse_5065" data-name="Ellipse 5065" cx="62.5" cy="31" rx="62.5" ry="31" transform="translate(-2809 -7216)" fill="#feca2e"/>
+    <ellipse id="Ellipse_5069" data-name="Ellipse 5069" cx="62" cy="31" rx="62" ry="31" transform="translate(-3286 -7216)" fill="#feca2e"/>
+    <ellipse id="Ellipse_5057" data-name="Ellipse 5057" cx="57" cy="20.5" rx="57" ry="20.5" transform="translate(-3204 -7596)" fill="#feca2e"/>
+    <ellipse id="Ellipse_5058" data-name="Ellipse 5058" cx="57" cy="20" rx="57" ry="20" transform="translate(-3031 -7540)" fill="#feca2e"/>
+    <rect id="Rectangle_42458" data-name="Rectangle 42458" width="205" height="46" transform="translate(-3250 -7496)" fill="#4dd0e1"/>
+    <rect id="Rectangle_42459" data-name="Rectangle 42459" width="167" height="45" transform="translate(-3461 -7304)" fill="#4dd0e1"/>
+    <rect id="Rectangle_42460" data-name="Rectangle 42460" width="167" height="45" transform="translate(-2976 -7304)" fill="#4dd0e1"/>
+    <text id="Programas_académicos" data-name="Programas académicos" transform="translate(-3147 -7468)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-89.852" y="0">Programas académicos</tspan></text>
+    <text id="Profesores" transform="translate(-3377 -7275)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-41.45" y="0">Profesores</tspan></text>
+    <text id="Estudiantes" transform="translate(-2892 -7275)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-44.509" y="0">Estudiantes</tspan></text>
+    <text id="Contrata" transform="translate(-3377 -7372)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-32.581" y="0">Contrata</tspan></text>
+    <text id="Matrícula" transform="translate(-2895 -7372)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-35.619" y="0">Matrícula</tspan></text>
+    <text id="Enseña" transform="translate(-3134 -7276)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-27.72" y="0">Enseña</tspan></text>
+    <text id="Nombre" transform="translate(-3329 -7507)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-28.711" y="0">Nombre</tspan></text>
+    <text id="Nombre-2" data-name="Nombre" transform="translate(-3520 -7179)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-28.711" y="0">Nombre</tspan></text>
+    <text id="Identificación" transform="translate(-3038 -7179)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-47.969" y="0">Identificación</tspan></text>
+    <text id="Profesión" transform="translate(-3376 -7142)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-34.297" y="0">Profesión</tspan></text>
+    <text id="Fecha_nacimiento" data-name="Fecha
+nacimiento" transform="translate(-2895 -7150)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-21.605" y="0">Fecha</tspan><tspan x="-39.598" y="15">nacimiento</tspan></text>
+    <text id="Experiencia" transform="translate(-3224 -7179)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-41.02" y="0">Experiencia</tspan></text>
+    <text id="Género" transform="translate(-2746 -7179)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-25.531" y="0">Género</tspan></text>
+    <text id="Código" transform="translate(-3147 -7569)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-26.853" y="0">Código</tspan></text>
+    <text id="Créditos" transform="translate(-2974 -7515)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="-27.964" y="0">Créditos</tspan></text>
+  </g>
+</svg>

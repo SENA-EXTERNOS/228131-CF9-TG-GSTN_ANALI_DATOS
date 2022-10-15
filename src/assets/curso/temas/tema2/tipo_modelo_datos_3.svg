@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="566" height="339" viewBox="0 0 566 339">
+  <g id="Group_136806" data-name="Group 136806" transform="translate(3471 7763)">
+    <rect id="Rectangle_42442" data-name="Rectangle 42442" width="566" height="339" rx="16" transform="translate(-3471 -7763)" fill="#e6f4ff"/>
+    <line id="Line_264" data-name="Line 264" x1="250.25" y1="1" transform="translate(-3345.75 -7670.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_263" data-name="Line 263" x1="34" y2="38" transform="translate(-3407.5 -7660.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_267" data-name="Line 267" x1="112" y2="1.5" transform="translate(-3207.5 -7555)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_268" data-name="Line 268" x1="29" y2="43" transform="translate(-3095.5 -7537.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_269" data-name="Line 269" x1="38.5" y2="52" transform="translate(-3306 -7546.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_265" data-name="Line 265" x1="35" y2="29" transform="translate(-3013.5 -7703.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_266" data-name="Line 266" y2="94" transform="translate(-3053.5 -7665.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <ellipse id="Ellipse_5053" data-name="Ellipse 5053" cx="43" cy="17" rx="43" ry="17" transform="translate(-3022 -7729)" fill="#feca2e"/>
+    <ellipse id="Ellipse_5056" data-name="Ellipse 5056" cx="31" cy="16" rx="31" ry="16" transform="translate(-3439 -7631)" fill="#feca2e"/>
+    <ellipse id="Ellipse_5054" data-name="Ellipse 5054" cx="43" cy="22.5" rx="43" ry="22.5" transform="translate(-3349 -7502)" fill="#feca2e"/>
+    <ellipse id="Ellipse_5055" data-name="Ellipse 5055" cx="43" cy="22.5" rx="43" ry="22.5" transform="translate(-3156 -7502)" fill="#feca2e"/>
+    <rect id="Rectangle_42455" data-name="Rectangle 42455" width="94" height="30" transform="translate(-3424 -7686)" fill="#4dd0e1"/>
+    <rect id="Rectangle_42457" data-name="Rectangle 42457" width="94" height="30" transform="translate(-3279 -7568)" fill="#4dd0e1"/>
+    <rect id="Rectangle_42456" data-name="Rectangle 42456" width="94" height="30" transform="translate(-3103 -7686)" fill="#4dd0e1"/>
+    <text id="Cliente" transform="translate(-3377 -7666)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-21.52" y="0">Cliente</tspan></text>
+    <text id="Artículo" transform="translate(-3232 -7548)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-24.336" y="0">Artículo</tspan></text>
+    <text id="Núm_Serie" data-name="Núm
+Serie" transform="translate(-3306 -7482)" fill="#12263f" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="Roboto-Regular, Roboto" text-decoration="underline"><tspan x="-14.984" y="0">Núm</tspan><tspan x="-15.637" y="15">Serie</tspan></text>
+    <text id="Pedido" transform="translate(-3056 -7666)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-21.711" y="0">Pedido</tspan></text>
+    <text id="Cantidad" transform="translate(-3113 -7475)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-27.915" y="0">Cantidad</tspan></text>
+    <text id="_" data-name="*" transform="translate(-3110 -7684)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-3.015" y="0">*</tspan></text>
+    <text id="_2" data-name="*" transform="translate(-3041 -7635)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-3.015" y="0">*</tspan></text>
+    <text id="_3" data-name="*" transform="translate(-3153 -7558)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-3.015" y="0">*</tspan></text>
+    <text id="Fecha" transform="translate(-2979 -7708)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto" text-decoration="underline"><tspan x="-18.905" y="0">Fecha</tspan></text>
+    <text id="_1:N" data-name="1:N" transform="translate(-3213 -7703)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-10.616" y="0">1:N</tspan></text>
+    <text id="N:M" transform="translate(-2978 -7548)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-12.797" y="0">N:M</tspan></text>
+    <text id="_1" data-name="1" transform="translate(-3310 -7675)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-3.931" y="0">1</tspan></text>
+    <text id="DNI" transform="translate(-3408 -7610)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.484" y="0">DNI</tspan></text>
+    <path id="Path_193560" data-name="Path 193560" d="M56.218.053,45.192,4.677.169,23.562,56.218,46.8l55.363-23.238Z" transform="translate(-3269.375 -7693.427)" fill="#fff" stroke="#707070" stroke-width="1.5"/>
+    <text id="Realiza" transform="translate(-3213 -7665)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-22.5" y="0">Realiza</tspan></text>
+    <path id="Path_193561" data-name="Path 193561" d="M56.218.053,45.192,4.677.169,23.562,56.218,46.8l55.363-23.238Z" transform="translate(-3109.581 -7578.426)" fill="#fff" stroke="#707070" stroke-width="1.5"/>
+    <text id="Se_compone" data-name="Se 
+compone" transform="translate(-3052 -7561)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-9.594" y="0">Se </tspan><tspan x="-29.282" y="15">compone</tspan></text>
+  </g>
+</svg>

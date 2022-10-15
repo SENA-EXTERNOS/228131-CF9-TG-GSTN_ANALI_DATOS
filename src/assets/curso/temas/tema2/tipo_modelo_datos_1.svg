@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="566" height="339" viewBox="0 0 566 339">
+  <g id="Group_136786" data-name="Group 136786" transform="translate(-924 -2747)">
+    <rect id="Rectangle_42442" data-name="Rectangle 42442" width="566" height="339" rx="16" transform="translate(924 2747)" fill="#e6f4ff"/>
+    <g id="Group_136787" data-name="Group 136787" transform="translate(4806.667 11501)">
+      <g id="Group_136786-2" data-name="Group 136786" transform="translate(27 18)">
+        <rect id="Rectangle_40553" data-name="Rectangle 40553" width="430.333" height="36.956" transform="translate(-3823.333 -8725.231)" fill="#f6f6f6"/>
+        <rect id="Rectangle_40554" data-name="Rectangle 40554" width="430.333" height="36.956" transform="translate(-3823.333 -8688.953)" fill="#fff"/>
+        <line id="Line_175" data-name="Line 175" y2="78.186" transform="translate(-3716.624 -8730.235)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_261" data-name="Line 261" y2="78.186" transform="translate(-3617.196 -8730.235)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_262" data-name="Line 262" y2="78.186" transform="translate(-3505.86 -8730.235)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="1"/>
+        <path id="Path_115567" data-name="Path 115567" d="M0,0H430.333V23.9H0Z" transform="translate(-3823.333 -8749)" fill="#4dd0e1"/>
+        <text id="ID_Vendedor" data-name="ID Vendedor" transform="translate(-3771 -8734)" fill="#12263f" font-size="11" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-30.669" y="0">ID Vendedor</tspan></text>
+        <text id="_1203565" data-name="1203565" transform="translate(-3771 -8704)" fill="#12263f" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="-21.619" y="0">1203565</tspan></text>
+        <text id="_577856" data-name="577856" transform="translate(-3770 -8668)" fill="#12263f" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="-18.53" y="0">577856</tspan></text>
+        <text id="Pedro" transform="translate(-3666 -8704)" fill="#12263f" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="-14.429" y="0">Pedro</tspan></text>
+        <text id="Ana" transform="translate(-3665 -8667)" fill="#12263f" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="-10.488" y="0">Ana</tspan></text>
+        <text id="Pérez" transform="translate(-3561 -8704)" fill="#12263f" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="-13.884" y="0">Pérez</tspan></text>
+        <text id="Hernández" transform="translate(-3563 -8668)" fill="#12263f" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="-26.498" y="0">Hernández</tspan></text>
+        <text id="Cali" transform="translate(-3448 -8703)" fill="#12263f" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="-10.081" y="0">Cali</tspan></text>
+        <text id="Pereira" transform="translate(-3448 -8668)" fill="#12263f" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="-17.239" y="0">Pereira</tspan></text>
+        <text id="Nombre" transform="translate(-3665 -8734)" fill="#12263f" font-size="11" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-19.862" y="0">Nombre</tspan></text>
+        <text id="Apellido" transform="translate(-3563 -8734)" fill="#12263f" font-size="11" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-20.555" y="0">Apellido</tspan></text>
+        <text id="Ciudad" transform="translate(-3448 -8734)" fill="#12263f" font-size="11" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-17.33" y="0">Ciudad</tspan></text>
+      </g>
+      <rect id="Rectangle_40553-2" data-name="Rectangle 40553" width="317.473" height="36.956" transform="translate(-3796.333 -8512.231)" fill="#f6f6f6"/>
+      <rect id="Rectangle_40554-2" data-name="Rectangle 40554" width="317.473" height="36.956" transform="translate(-3796.333 -8475.953)" fill="#fff"/>
+      <line id="Line_175-2" data-name="Line 175" y2="78.186" transform="translate(-3689.624 -8517.235)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_261-2" data-name="Line 261" y2="78.186" transform="translate(-3590.196 -8517.235)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_115567-2" data-name="Path 115567" d="M0,0H317.473V23.9H0Z" transform="translate(-3796.333 -8536)" fill="#4dd0e1"/>
+      <text id="ID_Vendedor-2" data-name="ID Vendedor" transform="translate(-3744 -8521)" fill="#12263f" font-size="11" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-30.669" y="0">ID Vendedor</tspan></text>
+      <text id="_577856-2" data-name="577856" transform="translate(-3743 -8455)" fill="#12263f" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="-18.53" y="0">577856</tspan></text>
+      <text id="_577856-3" data-name="577856" transform="translate(-3743 -8491)" fill="#12263f" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="-18.53" y="0">577856</tspan></text>
+      <text id="_001" data-name="001" transform="translate(-3639 -8491)" fill="#12263f" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="-9.265" y="0">001</tspan></text>
+      <text id="_002" data-name="002" transform="translate(-3638 -8454)" fill="#12263f" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="-10.107" y="0">002</tspan></text>
+      <text id="_100.000" data-name="100.000" transform="translate(-3534 -8491)" fill="#12263f" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="-19.978" y="0">100.000</tspan></text>
+      <text id="_50.000" data-name="50.000" transform="translate(-3536 -8455)" fill="#12263f" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="-16.889" y="0">50.000</tspan></text>
+      <text id="ID_Venta" data-name="ID Venta" transform="translate(-3638 -8521)" fill="#12263f" font-size="11" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-21.122" y="0">ID Venta</tspan></text>
+      <text id="Valor" transform="translate(-3536 -8521)" fill="#12263f" font-size="11" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-13.114" y="0">Valor</tspan></text>
+      <path id="Path_193553" data-name="Path 193553" d="M-3796.333-8717.333h-36.333v128.666H-3748v43.917" fill="none" stroke="#707070" stroke-width="2"/>
+      <path id="Path_193555" data-name="Path 193555" d="M-2725.2,3239.572l6.646-11.511h-13.291Z" transform="translate(-1022.58 -11779.622)" fill="#636363"/>
+    </g>
+  </g>
+</svg>
