@@ -16,7 +16,7 @@
                 p.mb-0 El modelado de datos es un proceso que permite analizar y definir los datos generados por la organización y la relación entre estos, con el fin de identificar sus características y dependencias. Un modelo de datos bien definido permite crear sistemas de información eficientes con estructuras de datos simplificadas mejorando así el rendimiento del sistema y por consiguiente los resultados que arroja.
             .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
               figure
-                img(src="@/assets/curso/temas/tema2/modelo_datos.svg").img100
+                img(src="@/assets/curso/temas/tema2/modelo_datos.png").img100
 
     .row
       .col-12.col-md-8.col-lg-8
@@ -90,7 +90,7 @@
       .col-12.col-md-4.col-lg-4
         .tarjeta.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/curso/temas/tema2/modelo_datos_2.svg", alt="alt")
+            img(src="@/assets/curso/temas/tema2/modelo_datos_2.png", alt="alt")
 
     Separador
 
@@ -179,7 +179,7 @@
       .col-lg-9.position-relative
         .avatar
           figure
-            img(src="@/assets/curso/temas/tema2/avatar.svg", alt="alt").img250
+            img(src="@/assets/curso/temas/tema2/avatar.png", alt="alt").img250
         .crd.crd--avatarHorizontal.crd--first.py-4
           .row.align-items-center
             .col-auto
