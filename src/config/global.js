@@ -1,19 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Fundamentos de modelamiento de datos',
+    descripcionCurso:
+      'El proceso de modelamiento de datos es fundamental para el éxito del sistema de información de la organización, para esto, es importante definir los datos necesarios, qué decisiones se esperan tomar con ellos y cómo deben ser almacenados y procesados. En este módulo se presentarán los conceptos básicos y herramientas que permitirán realizar estas actividades, familiarizando al aprendiz con las metodologías y técnicas para su aplicación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
     menu: [

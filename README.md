@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Fundamentos de modelamiento de datos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/228131-CF9-TG-GSTN_ANALI_DATOS/](https://sena-externos.github.io/228131-CF9-TG-GSTN_ANALI_DATOS/)
 
 #
 
