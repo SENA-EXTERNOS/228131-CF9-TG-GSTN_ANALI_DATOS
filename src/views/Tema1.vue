@@ -31,10 +31,10 @@
 
         // insertar infografias de puntos calientes
     .row.justify-content-center.pt-2
-      .col-12.pb-3
+      .col-12.pb-3.pt-5
         b Ejemplo: 
         span Dato Vs Información Vs Conocimiento
-      .tabla-b.color-secundario
+      .tabla-b.color-secundario.col-10.pt-3
           tbody
             tr
               th Dato
@@ -54,12 +54,12 @@
         .row.justify-content-center
           .figure.col-5.p-0
             img(src="@/assets/curso/temas/tema1/datos_estructurados.svg", alt="datos_estructurados").img50
-        .row.justify-content-center.p-0  
+        .row.justify-content-center.p-0.pt-3  
           .col-8.pb-5
             b.title-like Datos estructurados: 
         .row.justify-content-center.pb-5  
           .col-7
-            p Se consideran datos estructurados cuando tienen una estructura bien definida, siguen un orden y son de fácil acceso y uso para los sistemas de información y las personas. 
+            p-like Se consideran datos estructurados cuando tienen una estructura bien definida, siguen un orden y son de fácil acceso y uso para los sistemas de información y las personas. 
             p.pt-3 Se suelen mostrar en filas y columnas con títulos. Por ejemplo: transacciones de compra / venta, base de datos de contactos, inventario de implementos.
       .col-12.col-md-6.tarjeta.back-dislike.p-0
         .row.justify-content-center
@@ -71,7 +71,7 @@
         .row.justify-content-center.pb-5  
           .col-7
             p Este tipo de datos no tienen un modelo o estructura muy definida y pueden tener diferentes formatos como texto, imágenes, sonido, video lo que hace más difícil su procesamiento y análisis. 
-            p.pt-3.pb/3 La mayor parte de la información relevante para la organización se puede clasificar como “no estructurada”. Por ejemplo: correos electrónicos, documentos de texto, imágenes de catálogo, audios, videos, comentarios en redes sociales.
+            p.pt-3.pb-3 La mayor parte de la información relevante para la organización se puede clasificar como “no estructurada”. Por ejemplo: correos electrónicos, documentos de texto, imágenes de catálogo, audios, videos, comentarios en redes sociales.
       Separador
 
     #t_1_2.titulo-segundo.color-acento-contenido.pt-3.pb-3
@@ -297,8 +297,6 @@
                   li 
                     i.fas.fa-angle-right.txt--orange
                     | Gestión de requerimientos:
-            .row
-              .col-md-6
                 ol.lista-ol--cuadro
                   li 
                     .lista-ol--cuadro__vineta
@@ -333,8 +331,8 @@
                   li 
                     .lista-ol--cuadro__vineta
                       span g
-                    | Gestión de cambio de la arquitectura   
-                b.tarjeta--azul.pb-2 Para profundizar más sobre el tema lea DGF (Data Governance Framework) que encuentras en el material complemento
+                    | Gestión de cambio de la arquitectura     
+                b.tarjeta--azul.pb-2 Para profundizar más sobre el tema (The Open Group, 2018)
               .col-md-6.pb-4
                 .titulo-sexto.color-acento-contenido.mb-2.pr-2.pb-3
                   h5 Figura 4.
@@ -401,6 +399,100 @@
       Separador
     #t_1_4.titulo-segundo.color-acento-contenido.pt-3.pb-3
       h2 1.4  Ciclo de desarrollo de la arquitectura de datos
+
+    .row.justify-content-center.pb-5
+      .col-10
+        .row.align-middle 
+          .col-md-4.col-lg-4
+            .tarjeta.h-50.d-flex.p-4.align-middle
+              figure
+                img(src="@/assets/curso/temas/tema1/ciclos.png", alt="ciclos").img150
+          .col-md-8.col-lg-8.mt-4
+              p.pt-2 El proceso de arquitectura de datos se debe desarrollar durante las fases iniciales de diseño y planificación del sistema de información, con el fin de establecer de manera oportuna y clara cómo se procesarán, utilizarán y almacenarán los datos. De la correcta realización de esta actividad dependerá en gran parte el éxito o el fracaso del sistema a implementar. Un sistema de información sin claridad en el origen y tipo de datos que utiliza o sin conocimiento de las políticas de uso de la información no será de utilidad para la organización.
+    b.pt-3 Este proceso está dividido en cuatro etapas, similares a las etapas de desarrollo de arquitectura de software, pero enfocadas en los datos:
+
+    .row.justify-content-center.pt-5.pb-5
+      .col-10
+        .row.align-middle
+          .titulo-sexto.color-secundario.mb-2.pr-2
+            h5 Figura 6.
+            span Etapas de la arquitectura de datos
+          .col-12.pb-3
+            figure
+              img(src="@/assets/curso/temas/tema1/etapas.png", alt="etapas").img50
+
+    .tarjeta.tarjeta--gris.p-4
+      LineaTiempoC.color-acento-contenido(text-small)
+        .row(titulo="Requerimientos")
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/requerimientos.png', alt='requerimientos')
+          .col-md-8.mb-4.mb-md-0
+            b Requerimientos
+            p.pt-3 Se enfoca en la captura, documentación y priorización de requisitos que influyan en la arquitectura de datos. 
+            p.pt-3 En esta etapa es importante:
+            ol.lista-ol--cuadro
+                  li 
+                    .lista-ol--cuadro__vineta
+                      span 1
+                    | Conocer las expectativas de los stakeholders (personas interesadas y/o impactadas por el proceso)
+            ol.lista-ol--cuadro
+                  li 
+                    .lista-ol--cuadro__vineta
+                      span 2
+                    | Los objetivos del sistema a desarrollar (qué información o insights se podrán obtener con la información procesada y analizada)
+            ol.lista-ol--cuadro
+                  li 
+                    .lista-ol--cuadro__vineta
+                      span 3
+                    | Los flujos de trabajo que describen cómo se mueve la información a través de los diferentes procesos de la organización y,
+            ol.lista-ol--cuadro
+                  li 
+                    .lista-ol--cuadro__vineta
+                      span 4
+                    | Las condiciones o restricciones existentes en la organización para el uso y difusión de la información      
+            ol.lista-ol--cuadro
+                  li 
+                    .lista-ol--cuadro__vineta
+                      span 5
+                    | Aquí también se analizarán los orígenes de los datos (fuentes de información), su tipo (estructurados o no estructurados), dimensiones y periodicidad. 
+            p.tarjeta--azul.pb-2.pt-3 Esta etapa debe ser documentada de forma clara y detallada para no omitir detalles que puedan impactar negativamente el diseño y desarrollo del sistema de información.
+        .row(titulo="Diseño")
+          .col-md-7
+            figure
+              img(src='@/assets/curso/temas/tema1/diseno.png', alt='diseno')
+          .col-md-5.mb-4.mb-md-0
+            b Diseño
+            p.pt-3 En esta etapa se toman los requerimientos documentados y se definen las estructuras necesarias para el funcionamiento del sistema de información. 
+            p.pt-3 Esta definición se hace utilizando patrones de diseños según las necesidades de la organización. En esta fase también se decide cuáles serán las tecnologías a utilizar para la gestión y almacenamiento de los datos y se identifican las relaciones entre los datos y cuál será el flujo de la información desde su origen hasta el final del proceso.
+        .row(titulo="Documentación")
+          .col-md-7
+            figure
+              img(src='@/assets/curso/temas/tema1/documentacion.png', alt='documentacion')
+          .col-md-5.mb-4.mb-md-0
+            b Documentación
+            p.pt-3 Se documenta el diseño realizado utilizando representaciones ya establecidas y estandarizadas para facilitar la comunicación del diseño a los demás actores del proceso. 
+            p.pt-3 Algunas herramientas que permiten plasmar el diseño realizado son: 
+            ul.ps-3.lista-ul
+                  li 
+                    i.fas.fa-angle-right.txt--orange
+                    | Mapas de procesos
+                  li 
+                    i.fas.fa-angle-right.txt--orange
+                    | Diagramas de flujo
+                  li 
+                    i.fas.fa-angle-right.txt--orange
+                    | Diagramas de entidad - relación     
+        .row(titulo="Evaluación")
+          .col-md-7
+            figure
+              img(src='@/assets/curso/temas/tema1/evaluacion.png', alt='evaluacion')
+          .col-md-5.mb-4.mb-md-0
+            b Evaluación
+            p.pt-3 Esta etapa permite detectar de manera temprana fallas y oportunidades de mejora en el diseño realizado. Esto permitirá identificar y corregir posibles problemas antes de pasar a la fase de desarrollo.
+
+   
+
 
 </template>
 
