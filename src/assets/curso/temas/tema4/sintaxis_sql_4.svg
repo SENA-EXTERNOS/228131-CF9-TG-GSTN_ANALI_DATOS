@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="365" viewBox="0 0 820 365">
+  <g id="Group_139741" data-name="Group 139741" transform="translate(-390 -5044)">
+    <g id="Rectangle_43656" data-name="Rectangle 43656" transform="translate(390 5044)" fill="none" stroke="#dee9f0" stroke-width="3">
+      <rect width="820" height="365" stroke="none"/>
+      <rect x="1.5" y="1.5" width="817" height="362" fill="none"/>
+    </g>
+    <g id="Group_139740" data-name="Group 139740" transform="translate(-15 6)">
+      <text id="Verbo" transform="translate(563 5097)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Verbo</tspan></text>
+      <text id="SELECT" transform="translate(563 5209)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">SELECT</tspan></text>
+      <text id="CURSO_NOMBRE_NOTA_FROM_ALUMNOS" data-name="CURSO    NOMBRE,   NOTA   FROM   ALUMNOS" transform="translate(647 5209)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">CURSO    NOMBRE,   NOTA   </tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Bold, Roboto" font-weight="700">FROM  </tspan><tspan y="0" xml:space="preserve"> ALUMNOS</tspan></text>
+      <text id="WHERE_ASIGNATURA_PLE_" data-name="WHERE        ASIGNATURA  =  &quot;PLE&quot;" transform="translate(563 5262)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0" xml:space="preserve">WHERE  </tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Regular, Roboto" font-weight="400">      ASIGNATURA  =  &quot;PLE&quot;</tspan></text>
+      <text id="Palabras_reservadas" data-name="Palabras
+reservadas" transform="translate(592 5331)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-31.164" y="0">Palabras</tspan><tspan x="-39.242" y="24">reservadas</tspan></text>
+      <text id="Expresión" transform="translate(697 5331)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Expresión</tspan></text>
+      <text id="Constante" transform="translate(843 5331)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Constante</tspan></text>
+      <text id="Cláusula" transform="translate(1017 5331)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Cláusula</tspan></text>
+      <text id="Nombre_de_columnas" data-name="Nombre de columnas" transform="translate(662 5097)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Nombre de columnas</tspan></text>
+      <text id="Nombre_de_tabla" data-name="Nombre de tabla" transform="translate(872 5097)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Nombre de tabla</tspan></text>
+      <path id="Path_191462" data-name="Path 191462" d="M1579.422,2419.491l-17.524-10.118v20.236Z" transform="matrix(0.035, 0.999, -0.999, 0.035, 3296.246, 3523.455)" fill="#4dd0e1" style="isolation: isolate"/>
+      <path id="Path_196537" data-name="Path 196537" d="M1579.422,2419.491l-17.524-10.118v20.236Z" transform="matrix(0.035, 0.999, -0.999, 0.035, 2954.702, 3523.455)" fill="#4dd0e1" style="isolation: isolate"/>
+      <path id="Path_196538" data-name="Path 196538" d="M1579.422,2419.491l-17.524-10.118v20.236Z" transform="matrix(0, -1, 1, 0, -1827.991, 6857.398)" fill="#4dd0e1" style="isolation: isolate"/>
+      <path id="Path_196539" data-name="Path 196539" d="M1579.422,2419.491l-17.524-10.118v20.236Z" transform="matrix(0, -1, 1, 0, -1688.609, 6857.398)" fill="#4dd0e1" style="isolation: isolate"/>
+      <path id="Path_196540" data-name="Path 196540" d="M1579.422,2419.491l-17.524-10.118v20.236Z" transform="translate(117.808 8073.488) rotate(-133)" fill="#4dd0e1" style="isolation: isolate"/>
+      <path id="Path_196541" data-name="Path 196541" d="M1579.422,2419.491l-17.524-10.118v20.236Z" transform="translate(1080.238 8096.105) rotate(-151)" fill="#4dd0e1" style="isolation: isolate"/>
+      <path id="Path_196533" data-name="Path 196533" d="M1579.422,2419.491l-17.524-10.118v20.236Z" transform="translate(1935.047 2522.499) rotate(56)" fill="#4dd0e1" style="isolation: isolate"/>
+      <path id="Path_196534" data-name="Path 196534" d="M1579.422,2419.491l-17.524-10.118v20.236Z" transform="translate(3171.491 3607.285) rotate(90)" fill="#4dd0e1" style="isolation: isolate"/>
+      <path id="Path_196535" data-name="Path 196535" d="M1579.422,2419.491l-17.524-10.118v20.236Z" transform="translate(3575.858 5138.05) rotate(121)" fill="#4dd0e1" style="isolation: isolate"/>
+      <path id="Path_196536" data-name="Path 196536" d="M1579.422,2419.491l-17.524-10.118v20.236Z" transform="translate(3552.858 5086.519) rotate(121)" fill="#4dd0e1" style="isolation: isolate"/>
+      <path id="Path_196528" data-name="Path 196528" d="M3183-7070l81-84,59,79" transform="translate(-2513 12256)" fill="none" stroke="#4dd0e1" stroke-width="2"/>
+      <path id="Path_196529" data-name="Path 196529" d="M3206-7015l59-139v78" transform="translate(-2513 12256)" fill="none" stroke="#4dd0e1" stroke-width="2"/>
+      <path id="Path_196530" data-name="Path 196530" d="M3104.5-7150v73" transform="translate(-2513 12256)" fill="none" stroke="#4dd0e1" stroke-width="2"/>
+      <path id="Path_196531" data-name="Path 196531" d="M3104.5-7150v73" transform="translate(-2172 12256)" fill="none" stroke="#4dd0e1" stroke-width="2"/>
+      <line id="Line_321" data-name="Line 321" x2="162" y2="86" transform="translate(879.5 5218.5)" fill="none" stroke="#4dd0e1" stroke-width="2"/>
+      <line id="Line_322" data-name="Line 322" x2="35" y2="35" transform="translate(816.5 5274.5)" fill="none" stroke="#4dd0e1" stroke-width="2"/>
+      <path id="Path_196532" data-name="Path 196532" d="M3150.667-6997s-4,10.333,6,10.333h80.667l7.333,6,6-6h68s6-2.667,5.333-10.333" transform="translate(-2513 12256)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Line_323" data-name="Line 323" y2="29" transform="translate(731.5 5287)" fill="none" stroke="#4dd0e1" stroke-width="2"/>
+      <line id="Line_324" data-name="Line 324" y2="29" transform="translate(591.5 5287)" fill="none" stroke="#4dd0e1" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
