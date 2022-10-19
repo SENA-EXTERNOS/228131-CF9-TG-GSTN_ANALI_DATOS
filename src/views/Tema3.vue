@@ -135,7 +135,7 @@
     .row.justify-content-center.pt-5
       .col-12
         .row.justify-content-center
-          .col-8
+          .col-md-8
             AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
               .row(titulo="Diccionario de datos")
                 .col-md-8.mb-4.mb-md-0
