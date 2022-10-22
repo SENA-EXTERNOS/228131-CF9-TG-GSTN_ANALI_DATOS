@@ -174,34 +174,76 @@
       
       h5 Las sentencias SQL se pueden agrupar por funcionalidades:
 
-      .tarjeta--container.row.mb-4.pb-5
-        .col-md.tarjeta.color-primario.p-5
-          .row.justify-content-center.mb-4
-            .col-6
+      .row 
+        .col-12.col-md-4-1.tarjeta.tarjeta--azul
+          .row.justify-content-center.align-items-center.pt-5
+            .col-lg-8
               figure
-                img(src='@/assets/curso/temas/tema4/sintaxis_sql_1.svg', alt='alt')
-            
-          h5.text-center Lenguaje de manipulación de datos (DML): 
-          p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-        
-        .col-md.tarjeta.color-acento-botones.p-5
-          .row.justify-content-center.mb-4
-            .col-6
+                  img(src='@/assets/curso/temas/tema4/sintaxis_sql_1.svg', alt='alt')
+          .row.justify-content-center.align-items-center.p-5.back-yellow-1
+            h5.text-center Lenguaje de manipulación de datos (DML): 
+            ul.ps-3.lista-ul
+              li 
+                i.fas.fa-check.txt--azul
+                | <em>SELECT</em>
+              li 
+                i.fas.fa-check.txt--azul
+                | <em>INSERT</em>
+              li 
+                i.fas.fa-check.txt--azul
+                | <em>UPDATE</em>
+              li 
+                i.fas.fa-check.txt--azul
+                | <em>DELETE</em>
+        .col-12.col-md-4-1.tarjeta.tarjeta--azul.mx-2
+          .row.justify-content-center.align-items-center.pt-5.pb-4
+            .col-lg-8
               figure
-                img(src='@/assets/curso/temas/tema4/sintaxis_sql_2.svg', alt='alt')
-            
-          h5.text-center Lenguaje de definición de datos (DDL): 
-          p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-        
-        .col-md.tarjeta.color-acento-contenido.text-white.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/curso/temas/tema4/sintaxis_sql_3.svg', alt='alt')
-            
-          h5.text-center Lenguaje de control de datos (DCL): 
-          p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
+                  img(src='@/assets/curso/temas/tema4/sintaxis_sql_2.svg', alt='alt')
+          .row.justify-content-center.align-items-center.p-5.back-yellow-1
+            h5.text-center Lenguaje de definición de datos (DDL): 
+            p CREATE, ALTER, DROP que se aplican a los componentes principales de una base de datos:
+            ul.ps-3.lista-ul
+              li 
+                i.fas.fa-check.txt--azul
+                | Base de datos <em>(DATABASE)</em>
+              li 
+                i.fas.fa-check.txt--azul
+                | Tablas <em>(TABLE)</em> 
+              li 
+                i.fas.fa-check.txt--azul
+                | Vistas <em>(VIEW)</em> 
+              li 
+                i.fas.fa-check.txt--azul
+                | Índices <em>(INDEX)</em> 
+              li 
+                i.fas.fa-check.txt--azul
+                | Procedimientos almacenados <em>(PROCEDURE)</em>
+              li 
+                i.fas.fa-check.txt--azul
+                | Disparadores <em>(TRIGGER)</em>
 
+        .col-12.col-md-4-1.tarjeta.tarjeta--azul
+          .row.justify-content-center.align-items-center.pt-5
+            .col-lg-8
+              figure
+                  img(src='@/assets/curso/temas/tema4/sintaxis_sql_3.svg', alt='alt')
+          .row.justify-content-center.align-items-center.p-5.back-yellow-1
+            h5.text-center Lenguaje de control de datos (DCL): 
+            ul.ps-3.lista-ul
+              li 
+                i.fas.fa-check.txt--azul
+                | <em>COMMIT</em>
+              li 
+                i.fas.fa-check.txt--azul
+                | <em>ROLLBACK</em>
+              li 
+                i.fas.fa-check.txt--azul
+                | <em>GRANT</em>GRANT
+              li 
+                i.fas.fa-check.txt--azul
+                | <em>REVOKE</em>
+            
       p.pb-4 Las sentencias en SQL no son sensibles a mayúsculas y minúsculas, pero se recomienda usar estos comandos en mayúsculas sostenidas para diferenciarlos de los nombres de tablas y columnas.
 
       p.pb-4 <b>Ejemplo:</b> <em>CREATE DATATABASE</em> nombrebasedatos;
@@ -210,7 +252,176 @@
         .col-lg-8
           figure
             img(src='@/assets/curso/temas/tema4/sintaxis_sql_4.svg', alt='alt')
+      
+      .row.justify-content-center.align-items-center.mb-5
+        .container.tarjeta.tarjeta--blanca
+          TabsC.color-primario
+            .py-3.py-md-4(titulo="Consultas y operaciones básicas con SQL")
+              .row
+                .col-md-8
+                  h4.pb-3 Consultas y operaciones básicas con SQL:
+                 
+                  ul.ps-3.lista-ul
+                    li 
+                      i.fas.fa-check.txt--azul
+                      | Traer TODAS las columnas de una tabla:
 
+                  .crd.tarjeta--azul
+                    p.ms-5 <em>SELECT * FROM tabla;</em>
+                  
+                  ul.ps-3.lista-ul  
+                    li 
+                      i.fas.fa-check.txt--azul
+                      | Traer dos o más columnas de una tabla (los nombres de las atributos o columnas se separa con comas):
+                  
+                  .crd.tarjeta--azul
+                    p.ms-5 <em>SELECT atributo1, atributo2 FROM tabla;</em>
+
+                  ul.ps-3.lista-ul
+                    li 
+                      i.fas.fa-check.txt--azul
+                      | Traer dos columnas de la base de datos y ordenar por una de ellas de forma descendente (Por defecto el comando GROUP BY ordena de forma ascendente):
+
+                  .crd.tarjeta--azul
+                    p.ms-5 <em>SELECT atributo1, atributo2 FROM tabla ORDER BY atributo2 DESC;</em>
+
+                  ul.ps-3.lista-ul
+                    li 
+                      i.fas.fa-check.txt--azul
+                      | ALIAS (AS): Permiten renombrar una columna o una tabla.
+
+                  .crd.tarjeta--azul
+                    p.ms-5 <em>SELECT atributo1 AS nuevonombre FROM tabla;</em>
+
+                  ul.ps-3.lista-ul
+                    li 
+                      i.fas.fa-check.txt--azul
+                      | Filtros: Se pueden usar filtros en las consultas para traer solo los registros que cumplen con estos:
+
+                  .crd.tarjeta--azul
+                    p.ms-5 <em>SELECT nombre FROM estudiante WHERE edad > 10;</em>
+                    p.ms-5 <em>SELECT nombre FROM estudiante WHERE edad > 10 AND ciudad = “Cali”;</em>
+
+                .col-md-4.p-4
+                  figure
+                    img(src='@/assets/curso/temas/tema4/sintaxis_sql_5.svg', alt='alt').img100
+
+            .py-3.py-md-4(titulo="Funciones de agregación:")
+              .row
+                .col-md-6
+                  h4.pb-3 Consultas y operaciones básicas con SQL:
+                  
+                  ul.ps-3.lista-ul
+                    li 
+                      i.fas.fa-check.txt--azul
+                      | AVG (promedio de los valores)
+
+                  .crd.tarjeta--azul
+                    p.ms-5 <em>SELECT AVG (salario) FROM nomina</em>
+                  
+                  ul.ps-3.lista-ul  
+                    li 
+                      i.fas.fa-check.txt--azul
+                      | COUNT (contar elementos)
+                  
+                  .crd.tarjeta--azul
+                    p.ms-5 <em>SELECT COUNT (salario) FROM nomina</em>
+
+                  ul.ps-3.lista-ul
+                    li 
+                      i.fas.fa-check.txt--azul
+                      | MAX (valor máximo)
+
+                  .crd.tarjeta--azul
+                    p.ms-5 <em>SELECT MAX (salario) FROM nomina</em>
+
+                  ul.ps-3.lista-ul
+                    li 
+                      i.fas.fa-check.txt--azul
+                      | MIN (valor mínimo)
+
+                  .crd.tarjeta--azul
+                    p.ms-5 <em>SELECT MIN (salario) FROM nomina</em>
+
+                  ul.ps-3.lista-ul
+                    li 
+                      i.fas.fa-check.txt--azul
+                      | SUM (sumar valores)
+
+                  .crd.tarjeta--azul
+                    p.ms-5 <em>SELECT SUM (salario) FROM nomina</em>
+                 
+                .col-md-6.pb-4
+                  figure.ms-3.mt-5
+                    img(src='@/assets/curso/temas/tema4/sintaxis_sql_6.svg', alt='alt').img100
+
+      .row.justify-content-center.pt-5.pb-5
+        .col-12
+          .row.tarjeta.tarjeta--azul.align-middle 
+            .col-12.col-md-4.col-lg-4.mt-5.p-0.d-table-cell
+              img(src="@/assets/curso/temas/tema4/sintaxis_sql_7.svg", alt="infografia").img100
+              
+            .col-12.col-md-8.col-lg-8.mt-5.mb-5
+              .titulo-segundo.color-primario
+                h3 Infografía comandos del lenguaje de consulta SQL
+              p.pb-4 La siguiente infografía resume los principales comandos del lenguaje de consulta SQL con ejemplos de su forma de uso.
+
+              a.boton.boton--b(:href="obtenerLink('/actividades/AD5/index.html')" target="_blank")
+                span Descargar 
+                i.fas.fa-puzzle-piece
+
+      Separador
+
+      #t_4_3.titulo-segundo.color-primario.p-3
+        h2 4.3 4.3  Procedimientos almacenados y disparadores
+      
+      .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+        .col-12.col-md-4.col-lg-4
+          figure.max-width-80.ms-5
+            img(src="@/assets/curso/temas/tema4/triggers.svg", alt="alt")
+        .col-12.col-md-6.col-lg-6
+          p.mb-4 Los procedimientos almacenados son programas almacenados en la base de datos y su implementación depende del sistema de gestión de bases de datos empleado. 
+          p.mb-4 Este tipo de procedimientos se ejecuta directamente en el SGBD y por tanto tiene acceso directo a los datos. Esto mejora el tiempo de respuesta.
+
+      .crd.back-example-yellow-2
+        .row.ms-3.mt-3.mb-3
+          h4 Ejemplo:
+
+        .crd.back-example-yellow.ms-4
+          .row.ps-3.pt-3
+            p CREATE PROCEDURE nombre([parámetro1, parámetro2,....])
+            p [Atributos]
+            p BEGIN Instrucciones
+            p END
+
+      p.pt-4.pb-5 Los disparadores son un tipo de procedimiento almacenado que se invoca o ejecuta automáticamente en respuesta a una modificación concreta en la base de datos. Este tipo de procedimientos están compuestos de tres partes:
+      p <em>Evento:</em>modificación en la BD que activa el procedimiento
+      p <em>Condición:</em>consulta o verificación que se ejecuta al activar el disparador
+      p.pb-4 <em>Acción:</em>comandos que se ejecutan al activar el procedimiento y verificar que la condición se cumple.
+      
+      .crd.back-example-yellow-2
+        .row.ms-3.mt-3.mb-3
+          h4 Ejemplo:
+
+        .crd.back-example-yellow.ms-4
+          .row.ps-3.pt-3
+            p CREATE TRIGGER contar AFTER INSERT ON estudiantes
+            p.ps-3 WHEN (edad > 10)
+            p.ps-3 FOR EACH ROW
+            p.ps-3 BEGIN
+            p.ps-5 cuenta = cuenta + 1;
+            p.ps-3 END
+
+      h3.pt-4 Video temático 
+
+      p.pb-4 Para aprender más sobre la creación de Bases de datos con SQL y la realización de consultas, ver el video:
+
+      .row
+        .container.tarjeta.tarjeta--blanca
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            figcaption Video
 
 </template>
 

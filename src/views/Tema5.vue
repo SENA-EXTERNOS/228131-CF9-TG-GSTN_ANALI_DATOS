@@ -110,6 +110,7 @@
             .anexo__texto.back-yellow.p-2
               p.m-5 <b>Distribución y manipulación de datos no estructurados</b>
     Separador
+    
     #t_5_2.titulo-segundo.color-primario.pb-3
       h2 5.2  Tipos de bases de datos NO relacionales
     .row
@@ -151,10 +152,10 @@
                   p.pt-3 Algunas bases de datos de este tipo son: Apache HBase, Hypertable y Cassandra.
 
     .row.justify-content-center.pt-5.pb-5
-      .col-10
+      .col-12
         .row.tarjeta.tarjeta--azul.align-middle 
           .col-12.col-md-4.col-lg-4.mt-5.p-0.d-table-cell
-            img(src="@/assets/curso/temas/tema5/infografia.png", alt="infografia").img100
+            img(src="@/assets/curso/temas/tema4/sintaxis_sql_7.svg", alt="infografia").img100
             
           .col-12.col-md-8.col-lg-8.mt-5.mb-5
             .titulo-segundo.color-primario

@@ -260,16 +260,16 @@
                 img(src="@/assets/curso/temas/tema3/funciones2.png", alt="funciones2").img50
           .col-md-8
             TabsA.color-acento-botones
-              .tarjeta.color-acento-botones--borde.p-4(titulo="Almacenamiento ")
+              .tarjeta.tarjeta--azul.clr--azul.p-4(titulo="Almacenamiento ")
                 h4 Almacenamiento de los datos     
                 p.pt-3 La base de datos debe almacenar textos, documentos, contraseñas y demás datos digitales de forma segura para que puedan consultarse.
-              .tarjeta.color-acento-botones--borde.p-4(titulo="Manipulación")
+              .tarjeta.tarjeta--azul.clr--azul.p-4(titulo="Manipulación")
                 h4 Manipulación de los datos      
                 p.pt-3 La base de datos debe permitir la edición de los datos almacenados según los permisos de los usuarios. Se podrán realizar operaciones de adición, supresión, actualización, extracción, consulta, entre otras.
-              .tarjeta.color-acento-botones--borde.p-4(titulo="Seguridad")
+              .tarjeta.tarjeta--azul.clr--azul.p-4(titulo="Seguridad")
                 h4 Seguridad e integridad de los datos    
                 p.pt-3 La base de datos debe garantizar la seguridad de la información evitando el acceso a personas no autorizadas. Además de cifrar la información, deberá tener un esquema de permisos de diferentes niveles para acceder a ésta. También se deben garantizar la coherencia e integridad de la información almacenada por medio del cumplimiento de las cuatro propiedades de las transacciones (ACID).
-              .tarjeta.color-acento-botones--borde.p-4(titulo="Recuperación")
+              .tarjeta.tarjeta--azul.clr--azul.p-4(titulo="Recuperación")
                 h4 Restauración de los datos   
                 p.pt-3 La base de datos debe brindar herramientas para el respaldo y recuperación de la información en caso de posibles fallos. 
 

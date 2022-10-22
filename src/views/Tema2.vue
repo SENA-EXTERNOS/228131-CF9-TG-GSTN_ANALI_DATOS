@@ -36,7 +36,7 @@
                 | Modelado físico
             P Estos modelos permiten determinar y visualizar cómo se gestionan los datos de la organización.
 
-          .tarjeta.tarjeta--azul.clr--gris.p-4(titulo="Modelo conceptual")    
+          .tarjeta.tarjeta--azul.clr--azul.p-4(titulo="Modelo conceptual")    
             h4 Modelo conceptual
             p.pb-2 El modelo conceptual es el nivel de abstracción más alto en el cual se representa la estructura general y el contenido, pero sin mucho detalle. En este se identifican los conjuntos de datos y el flujo de estos en la organización. La herramienta utilizada para esta representación es el diagrama entidad - relación.
             p En este modelo se pueden encontrar:
@@ -95,7 +95,7 @@
     Separador
 
     #t_2_1.titulo-segundo.color-primario.p-3
-      h2 2.1  Pensamiento computacional 
+      h2 2.1  ¿Qué son modelos de datos? 
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-12.col-md-4.col-lg-4
@@ -109,7 +109,7 @@
     Separador
 
     #t_2_2.titulo-segundo.color-primario.p-3
-      h2 2.2  Pensamiento computacional 
+      h2 2.2  Tipos de modelos de datos y marcos de referencia
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-12.col-md-5.col-lg-5
