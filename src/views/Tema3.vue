@@ -8,21 +8,23 @@
       h1 Sistemas de gestión de bases de datos SGBD (DBMS)
 
     .row.justify-content-center.pb-5
-      .col-12.tarjeta.tarjeta--gris
+      .tarjeta.tarjeta--gris.p-4
         pb-3 Los sistemas de gestión de bases de datos - SGBD (o DBMS por sus siglas en inglés: DataBase Management System) son fundamentales para la administración de la información de una organización. Son herramientas de software que permiten configurar, administrar y utilizar bases de datos y así sacar provecho de la información que allí se almacena.
 
-    .bloque-texto-f.color-acento-contenido.pt-4.px-5.mb-5
-      .bloque-texto-f__comillas
-        i.fas.fa-quote-left
-        i.fas.fa-quote-right
-      h4.text-center.text-regular.bloque-texto-f__texto Al almacenar los datos en un SGBD en vez de en un conjunto de archivos del sistema operativo, se pueden utilizar las características del SGBD para gestionar los datos de un modo robusto y eficiente. A medida que crecen el volumen de los datos y el número de usuarios el apoyo de los SGBD se vuelve indispensable
-
-   
-    b.pt-5 Los SGBD deben mantener cuatro propiedades en las transacciones para garantizar que los datos se procesen de manera fiable.
+    .row.justify-content-center
+      .col-10
+        .bloque-texto-f.color-primario.pt-4.px-5
+          .bloque-texto-f__comillas.color-acento-botones
+            i.fas.fa-quote-left
+            i.fas.fa-quote-right
+            p.em.text-center.text-regular.bloque-texto-f__texto <em>Al almacenar los datos en un SGBD en vez de en un conjunto de archivos del sistema operativo, se pueden utilizar las características del SGBD para gestionar los datos de un modo robusto y eficiente. A medida que crecen el volumen de los datos y el número de usuarios el apoyo de los SGBD se vuelve indispensable</em> 
+            p.text-center.text-regular.bloque-texto-f__texto <b>(Ramakrishnan, 2011).</b> 
+  
+    h5 Los SGBD deben mantener cuatro propiedades en las transacciones para garantizar que los datos se procesen de manera fiable.
 
     .row.justify-content-center.pt-5
-          .col-10
-            img(src="@/assets/curso/temas/tema3/sgbd.svg", alt="sgbd").img100
+      .col-10
+        img(src="@/assets/curso/temas/tema3/sgbd.svg", alt="sgbd").img100
 
     p.pt-5 Estas propiedades son conocidas como ACID, por sus siglas en inglés, y son:  
 
@@ -102,14 +104,73 @@
 
     p.pt-3 El siguiente es un listado de los SGBD más utilizados en el mercado:
 
-    .row.justify-content-center.pt-3
+    .row.justify-content-center.pt-4.pb-4
       .col-12
-        .row.align-middle
-          .titulo-sexto.color-secundario.mb-2.pr-2
-            h5 Tabla 3.
-            span listado de los SGBD 
-
-      // insertar tabla
+        .titulo-sexto.color-acento-contenido.mb-2.pr-2
+          h5 Tabla 3.
+          br
+          em listado de los SGBD
+        .col-12
+          .tabla-b.color-acento-contenido
+            table
+              tr.tabla-b__header
+                th.border-0.m-0.p-0.no-padding SGBD
+                th.border-0.m-0.p-0 Nombre
+                th.border-0.m-0.p-0 Tipo
+              tr
+                th.p-3
+                  figure.p-3.max-width-80.ms-5
+                    img(src='@/assets/curso/temas/tema3/tabla_1.png', alt='alt')
+                th.text-center MySQL
+                th.text-center Relacional
+              tr
+                th.p-3
+                  figure.p-3.max-width-80.ms-5
+                    img(src='@/assets/curso/temas/tema3/tabla_2.png', alt='alt')
+                th.text-center PostgreSQL
+                th.text-center Relacional y orientado a objetos
+              tr
+                th.p-3
+                  figure.p-3.max-width-80.ms-5
+                    img(src='@/assets/curso/temas/tema3/tabla_3.png', alt='alt')
+                th.text-center ORACLE
+                th.text-center Relacional
+              tr
+                th.p-3
+                  figure.p-3.max-width-80.ms-5
+                    img(src='@/assets/curso/temas/tema3/tabla_4.png', alt='alt')
+                th.text-center Microsoft Access
+                th.text-center Relacional
+              tr
+                th.p-3
+                  figure.p-3.max-width-80.ms-5
+                    img(src='@/assets/curso/temas/tema3/tabla_5.png', alt='alt')
+                th.text-center Microsoft SQL Server
+                th.text-center Relacional
+              tr
+                th.p-3
+                  figure.p-3.max-width-80.ms-5
+                    img(src='@/assets/curso/temas/tema3/tabla_6.png', alt='alt')
+                th.text-center MariaBD
+                th.text-center Relacional
+              tr
+                th.p-3.max-width-80
+                  figure.p-5
+                    img(src='@/assets/curso/temas/tema3/tabla_7.png', alt='alt')
+                th.text-center MySQL
+                th.text-center Relacional
+              tr
+                th.p-3.max-width-80
+                  figure.p-5
+                    img(src='@/assets/curso/temas/tema3/tabla_8.png', alt='alt')
+                th.text-center MongoDB
+                th.text-center Orientado a documentos
+              tr
+                th.p-3.max-width-80
+                  figure.p-5
+                    img(src='@/assets/curso/temas/tema3/tabla_8.png', alt='alt')
+                th.text-center Redis
+                th.text-center Almacenamiento clave - valor
 
     Separador
 

@@ -18,47 +18,47 @@
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/tema5/datos.png", alt="datos").img400.m-auto
           .col-lg-8
-            b.pb-5 Algunas fuentes de datos no estructuradas son: 
+            h5 Algunas fuentes de datos no estructuradas son: 
 
             SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-4")
-              .tarjeta.tarjeta--slyder.pt-5.p-4.border
+              .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
-                p.text-center.pb-2 Imágenes
+                  p.text-center.pb-4 Imágenes
                   .col-8
                     img(src="@/assets/curso/temas/tema5/imagenes.png", alt="imagenes").img100
               .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
-                p.text-center.pb-2 Videos
+                  p.text-center.pb-4 Videos
                   .col-8
                     img(src="@/assets/curso/temas/tema5/videos.png", alt="videos").img100
               .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
-                p.text-center.pb-2 Informes
+                  p.text-center.pb-4 Informes
                   .col-8
                     img(src="@/assets/curso/temas/tema5/informes.png", alt="informes").img100
               .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
-                p.text-center.pb-2 Documentos de texto (Word, PDF)
+                  p.text-center.pb-2 Documentos de texto (Word, PDF)
                   .col-8
                     img(src="@/assets/curso/temas/tema5/documentos_de_texto.png", alt="documentos_de_texto").img100
               .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
-                p.text-center.pb-2 Audios
+                  p.text-center.pb-4 Audios
                   .col-8
                     img(src="@/assets/curso/temas/tema5/audios.png", alt="audios").img100
               .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
-                p.text-center.pb-2 Notas de voz
+                  p.text-center.pb-4 Notas de voz
                   .col-8
                     img(src="@/assets/curso/temas/tema5/notas_de_voz.png", alt="notas_de_voz").img100
               .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
-                p.text-center.pb-2 Comentarios en redes sociales
+                  p.text-center.pb-2 Comentarios en redes sociales
                   .col-8
                     img(src="@/assets/curso/temas/tema5/comentarios.png", alt="comentarios").img100
               .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
-                p.text-center.pb-2 Correos electrónicos
+                  p.text-center.pb-2 Correos electrónicos
                   .col-8
                     img(src="@/assets/curso/temas/tema5/correos.png", alt="correos").img100
                 
@@ -80,34 +80,35 @@
               figure
                 img(src="@/assets/curso/temas/tema5/bases_no_relacionales.png").img100
     P.pt-5 Las bases de datos NoSQL son más flexibles que las bases de datos relacionales ya que permiten gestionar información en otros formatos como grafos, documentos, clave-valor y columnas. Este tipo de bases de datos son idóneas para aplicaciones que requieren manipulación de grandes cantidades de datos y por esta razón es usada por empresas como Facebook, LinkedIn o Google.     
-    b.pt-5 Las principales características de estas bases de datos son:
+    
+    h5 Las principales características de estas bases de datos son:
 
-    .row.justify-content-center
-      .col-10.pt-5
+    .row.justify-content-center.pb-5
+      .col-10
         .row
           .col-md-6
-              .anexo__icono
-                img(src="@/assets/curso/temas/tema5/elipse.png")
-              .anexo__texto.back-yellow
-                p Capacidad de almacenamiento de grandes cantidades de datos     
+            .anexo__icono
+              img(src="@/assets/curso/temas/tema5/no_relacional_1.png")
+            .anexo__texto.back-yellow.p-2
+              p.m-5 <b>Capacidad de almacenamiento de grandes cantidades de datos</b> 
           .col-md-6
-              .anexo__icono
-                img(src="@/assets/curso/temas/tema5/elipse.png")
-              .anexo__texto.back-yellow
-                p Acceso rápido
+            .anexo__icono
+              img(src="@/assets/curso/temas/tema5/no_relacional_2.png")
+            .anexo__texto.back-yellow.p-2
+              p.m-5 <b>Acceso rápido</b> 
     .row.justify-content-center
       .col-10.pt-2
         .row
           .col-md-6
-              .anexo__icono
-                img(src="@/assets/curso/temas/tema5/elipse.png")
-              .anexo__texto.back-yellow
-                p Escalabilidad sin afectación del rendimiento     
+            .anexo__icono
+              img(src="@/assets/curso/temas/tema5/no_relacional_3.png")
+            .anexo__texto.back-yellow.p-2
+              p.m-5 <b>Escalabilidad sin afectación del rendimiento</b>     
           .col-md-6
-              .anexo__icono
-                img(src="@/assets/curso/temas/tema5/elipse.png")
-              .anexo__texto.back-yellow
-                p Distribución y manipulación de datos no estructurados
+            .anexo__icono
+              img(src="@/assets/curso/temas/tema5/no_relacional_4.png")
+            .anexo__texto.back-yellow.p-2
+              p.m-5 <b>Distribución y manipulación de datos no estructurados</b>
     Separador
     #t_5_2.titulo-segundo.color-primario.pb-3
       h2 5.2  Tipos de bases de datos NO relacionales

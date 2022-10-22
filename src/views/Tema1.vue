@@ -7,14 +7,15 @@
         span 1
       h1 Introducción a la arquitectura de datos
     .row.justify-content-center.pb-5
-      .col-12.tarjeta.tarjeta--azul
+      .tarjeta.tarjeta.tarjeta--azul.p-4
         pb-3 Avances tecnológicos como el internet de las cosas (IoT), el comercio electrónico y las redes sociales hacen que cada minuto se produzcan enormes cantidades de información de vital importancia para las organizaciones y para la vida diaria. Una parte de esta información es estructurada y tiene un modelo definido que se puede organizar en forma de tablas, hojas de cálculo y bases de datos relacionales. La otra parte de la información, la no estructurada, no tiene una estructura específica como lo son las fotografías, documentos de texto, videos y comentarios en redes sociales, pero al igual que la información estructurada, brinda elementos importantes para el análisis y toma de decisiones. La incorrecta administración de cantidad ingente de datos, hace que su manejo resulte abrumador.
     .row.justify-content-center.pt-5
       .col-8
         .row.align-middle
           .titulo-sexto.color-acento-contenido.mb-2.pr-2
             h5 Figura 1.
-            span Ejemplo de Cohesión en Python
+            br
+            em Ejemplo de Cohesión en Python
         .row
           .col-12
             img(src="@/assets/curso/temas/tema1/minuto.svg", alt="minuto_en_internet").img100
@@ -23,13 +24,14 @@
     .row.justify-content-center.pt-5
       .col-12
         p Las empresas pueden (y deben) sacar provecho de los datos que generan día a día y esto es posible por medio de los sistemas de información, los cuales permiten recolectar, almacenar, procesar y explotar los datos disponibles para que sirvan de insumo para la planificación y la toma de decisiones. Así las decisiones estarán sustentadas en información y no en la intuición.
+    
     #t_1_1.titulo-segundo.color-acento-contenido.pt-5
       h2 1.1  Conceptos básicos: datos e información
     .row.justify-content-center.pt-2
       .col-12
         p Los siguientes son algunos conceptos básicos necesarios para comprender cómo trabajar con los diversos tipos de datos que existen en cada organización y cómo se pueden gestionar a través de los sistemas de información para aprovecharlos en la gestión estratégica y en la toma de decisiones:
 
-        // insertar infografias de puntos calientes
+    // insertar infografias de puntos calientes
     .row.justify-content-center.pt-2
       .col-12.pb-3.pt-5
         b Ejemplo: 
@@ -51,25 +53,25 @@
 
     .row.justify-content-center.pt-5.ps-3.pe-3.pb-5
       .col-12.col-md-6.tarjeta.back-like.p-0
-        .row.justify-content-center
-          .figure.col-5.p-0
-            img(src="@/assets/curso/temas/tema1/datos_estructurados.svg", alt="datos_estructurados").img50
+        .row.justify-content-center.pt-5
+          .figure.col-5.pt-0
+            img(src="@/assets/curso/temas/tema1/datos_estructurados.svg", alt="alt").img50
         .row.justify-content-center.p-0.pt-3  
-          .col-8.pb-5
+          .col-6.pb-3
             b.title-like Datos estructurados: 
-        .row.justify-content-center.pb-5  
-          .col-7
-            p-like Se consideran datos estructurados cuando tienen una estructura bien definida, siguen un orden y son de fácil acceso y uso para los sistemas de información y las personas. 
-            p.pt-3 Se suelen mostrar en filas y columnas con títulos. Por ejemplo: transacciones de compra / venta, base de datos de contactos, inventario de implementos.
+        .row.justify-content-center.pb-3
+          .col-10
+            p.pb-3.font-white Se consideran datos estructurados cuando tienen una estructura bien definida, siguen un orden y son de fácil acceso y uso para los sistemas de información y las personas. 
+            p.font-white Se suelen mostrar en filas y columnas con títulos. Por ejemplo: transacciones de compra / venta, base de datos de contactos, inventario de implementos.
       .col-12.col-md-6.tarjeta.back-dislike.p-0
-        .row.justify-content-center
+        .row.justify-content-center.pt-5
           .figure.col-5.p-0
             img(src="@/assets/curso/temas/tema1/dato_no_estructurados.svg", alt="alt").img50
-        .row.justify-content-center.p-0  
-          .col-8.pb-5
+        .row.justify-content-center.pt-3  
+          .col-6.pb-3
             b.title-like Datos no estructurados:
-        .row.justify-content-center.pb-5  
-          .col-7
+        .row.justify-content-center.pb-3
+          .col-10
             p Este tipo de datos no tienen un modelo o estructura muy definida y pueden tener diferentes formatos como texto, imágenes, sonido, video lo que hace más difícil su procesamiento y análisis. 
             p.pt-3.pb-3 La mayor parte de la información relevante para la organización se puede clasificar como “no estructurada”. Por ejemplo: correos electrónicos, documentos de texto, imágenes de catálogo, audios, videos, comentarios en redes sociales.
       Separador
@@ -82,7 +84,7 @@
         .row.justify-content-center.pb-5
           .figure.col-md-5.pt-5
             img(src="@/assets/curso/temas/tema1/arquitectura_datos.svg", alt="arquitectura_datos").img50                
-          .col-md-7.mb-4.mb-md-0.ps-4.tarjeta.tarjeta--azul
+          .col-md-7.mb-4.mb-md-0.ps-4.tarjeta.clr-paleYellow.p-4
             p.pb-3 La arquitectura de datos es un conjunto de métodos que permiten definir:
             ol.lista-ol--cuadro
               li 
@@ -116,7 +118,7 @@
                 | Las relaciones entre los datos y cómo estos interactúan
 
         .row
-          .col-10.col-md-4.tarjeta.tarjeta--azul
+          .col-10.col-md-4.tarjeta.clr-paleYellow.p-4
               p.pb-3 Realizar correctamente la definición de la arquitectura de datos de la organización permite:
               ol.lista-ol--cuadro
                 li 
@@ -131,7 +133,8 @@
                   .lista-ol--cuadro__vineta
                     span 3
                   | Una ventaja competitiva en comparación con las empresa u organizaciones que no cuentan con arquitecturas de datos claras  
-          .col-md-8
+          .col-2
+          .col-md-6
             .figure
               img(src="@/assets/curso/temas/tema1/arquitectura_2.svg", alt="arquitectura_datos").img50                
      
@@ -139,7 +142,7 @@
 
     .row.justify-content-center.pt-5.pb-3
       .col-10
-        PasosA.color-primario.mb-5(tipo="n")
+        PasosA.color-acento-botones.mb-5(tipo="n")
           .row
             .col-md-6.mb-4.mb-md-0
               h3 Integración de datos:     
@@ -171,24 +174,26 @@
             .col-md-6
               h3 Adaptabilidad:     
               p La arquitectura de datos debe ser flexible para ajustarse a las diferentes necesidades de la organización y para los diversos roles o tipos de usuario
-      Separador
+    
+    Separador
+    
     #t_1_3.titulo-segundo.color-acento-contenido.pt-3.pb-3
       h2 1.3  Modelos, políticas y reglas
-    .row.justify-content-center.mb-5
-      .col-12.position-relative.pr-3
+    .row.mb-5
+      .col-10.position-relative.pr-3
         .avatar
           figure
-            img(src="@/assets/curso/temas/tema1/modelos.svg", alt="modelos", style="width: 500px;").img250
+            img(src="@/assets/curso/temas/tema1/modelos.svg", alt="modelos", style="width: 350px;")
         .crd.crd--avatarHorizontal.crd-py-4.back-yellow
           .row.align-items-center
-            .col-7.ms-4
+            .col-12.ms-4.mt-4
               p La arquitectura de datos es una rama de la arquitectura empresarial que abarca los modelos, políticas, reglas y estándares que orientan la recolección, el almacenamiento, la disposición, integración y el uso de los datos al interior de las organizaciones y su objetivo es traducir las necesidades de la organización en requerimientos de datos y herramientas para aprovechar la información y así atender dichas necesidades.     
         .crd.crd--avatarHorizontal.crd--last.py-4.back-yellow-2
           .row.align-items-center
-            .col-7.ms-4
+            .col-12.ms-4
               p Existen diferentes marcos de referencia que definen las reglas y características de los sistemas de información a desarrollar, así como las mejores prácticas para la realización de este proceso de diseño e implementación de una arquitectura de datos acorde a los requerimientos de la organización. Estos marcos de referencia sirven como guías para un entendimiento detallado de las alternativas de arquitecturas disponibles según las características de cada organización y cómo realizar su implementación paso a paso para lograr un uso adecuado de las TIC y la información, así como el cumplimiento de las necesidades de la organización.
 
-    b El análisis y conocimiento de los diferentes marcos de referencia disponibles permitirá seleccionar la mejor opción según las necesidades de la organización, adaptando los modelos a las características particulares del negocio.
+    h5 El análisis y conocimiento de los diferentes marcos de referencia disponibles permitirá seleccionar la mejor opción según las necesidades de la organización, adaptando los modelos a las características particulares del negocio.
 
     .row.pt-5
       .container.tarjeta.tarjeta--blanca
@@ -201,38 +206,39 @@
                 p.pb-2 Este marco de referencia propone las siguientes áreas de conocimiento: 
                 ul.ps-3.lista-ul
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Gobierno de datos
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Arquitectura de datos
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Almacenamiento y operación de datos
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Seguridad de datos
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Integración e interoperabilidad de datos
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Documentación y contenido
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Referencias y datos maestros
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Bodega de datos e inteligencia de negocios
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Metadatos y calidad. 
                 p.pb-2 Además, define elementos de contexto soportados sobre tres pilares que son: personas, procesos y tecnologías.
                 b.tarjeta--azul.pb-2 Para profundizar más sobre el tema (DAMA Internacional, 2022)
               .col-md-6.p-4
                 .titulo-sexto.color-acento-contenido.mb-2.pr-2
                   h5 Figura 2.
-                  span Data Management Book of Knowledge 
+                  br
+                  em Data Management Book of Knowledge 
                 figure
                   img(src='@/assets/curso/temas/tema1/dmbok.png', alt='dmbok').img100
                 p.tarjeta--azul.pb-2 Nota: Adaptada de Data Management Book of Knowledge. DAMA Internacional (2022). 
@@ -245,40 +251,41 @@
                 p.pb-2 El marco de referencia DGF está formado por 10 componentes universales. Independiente del enfoque de la organización se incluirán estos 10 componentes en el modelo, aunque el énfasis de cada uno varía según los requerimientos de la organización. Estos componentes son: 
                 ul.ps-3.lista-ul
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Misión y visión
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Objetivos y métricas
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Reglas (definiciones y políticas)
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Derechos de decisión
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Responsabilidades
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Controles
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Stakeholders
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Oficina de gobierno de datos
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Administradores de datos y,
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Procesos de gobernanza     
                 b.tarjeta--azul.pb-2 Para profundizar más sobre el tema lea DGF (Data Governance Framework) que encuentras en el material complemento
               .col-md-6.pb-4
-                .titulo-sexto.color-acento-contenido.mb-2.pr-2.pb-3
+                .titulo-sexto.color-acento-contenido.mb-2.pr-2
                   h5 Figura 3.
-                  span Marco de gobierno de datos de la DGI
+                  br
+                  em Marco de gobierno de datos de la DGI
                 figure
                   img(src='@/assets/curso/temas/tema1/dgf.svg', alt='dgf').img100
                 p.tarjeta--azul.pb-2.pt-3 Nota: Adaptada del Marco de gobierno de datos de la DGI. Data Governance Institute, (s.f.).  
@@ -292,10 +299,10 @@
                 p.pb-2 Este modelo de referencia utiliza un modelo iterativo de buenas prácticas conocido como Método de desarrollo de arquitectura (Architecture Development Method – ADM en inglés) con las siguientes fases: 
                 ul.ps-3.lista-ul
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Fase preliminar
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Gestión de requerimientos:
                 ol.lista-ol--cuadro
                   li 
@@ -334,9 +341,10 @@
                     | Gestión de cambio de la arquitectura     
                 b.tarjeta--azul.pb-2 Para profundizar más sobre el tema (The Open Group, 2018)
               .col-md-6.pb-4
-                .titulo-sexto.color-acento-contenido.mb-2.pr-2.pb-3
+                .titulo-sexto.color-acento-contenido.mb-2.pr-2
                   h5 Figura 4.
-                  span El estándar TOGAF
+                  br
+                  em El estándar TOGAF
                 .col-10.figure
                   img(src='@/assets/curso/temas/tema1/togaf.png', alt='togaf').img100
                 p.tarjeta--azul.pb-2.pt-3 Nota: Adaptada de El estándar TOGAF. The Open Group (2018).   
@@ -390,9 +398,10 @@
                     | Alejar el gobierno de la administración     
                 b.tarjeta--azul.pb-2 Para profundizar más sobre el tema lea COBIT (Control Objetives for....) que encuentras en el material complemento
               .col-md-6.pb-4
-                .titulo-sexto.color-acento-contenido.mb-2.pr-2.pb-3
+                .titulo-sexto.color-acento-contenido.mb-2.pr-2
                   h5 Figura 5.
-                  span Principios de COBIT 5
+                  br
+                  em Principios de COBIT 5
                 figure
                   img(src='@/assets/curso/temas/tema1/cobit.png', alt='cobit').img100
                 p.tarjeta--azul.pb-2.pt-3 Nota: Adaptada de Principios de COBIT 5. Jiménez (2018).  Geniusitt.   
@@ -414,9 +423,10 @@
     .row.justify-content-center.pt-5.pb-5
       .col-10
         .row.align-middle
-          .titulo-sexto.color-secundario.mb-2.pr-2
+          .titulo-sexto.color-acento-contenido.mb-2.pr-2
             h5 Figura 6.
-            span Etapas de la arquitectura de datos
+            br
+            em Etapas de la arquitectura de datos
           .col-12.pb-3
             figure
               img(src="@/assets/curso/temas/tema1/etapas.png", alt="etapas").img50
@@ -475,13 +485,13 @@
             p.pt-3 Algunas herramientas que permiten plasmar el diseño realizado son: 
             ul.ps-3.lista-ul
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Mapas de procesos
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Diagramas de flujo
                   li 
-                    i.fas.fa-angle-right.txt--orange
+                    i.fas.fa-check.txt--azul
                     | Diagramas de entidad - relación     
         .row(titulo="Evaluación")
           .col-md-7

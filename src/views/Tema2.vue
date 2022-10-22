@@ -99,10 +99,9 @@
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-12.col-md-4.col-lg-4
-        .tarjeta.h-100.d-flex.align-items-center.p-4
-          figure.max-width-80
-            img(src="@/assets/curso/temas/tema2/que_son_modelos.svg", alt="alt")
-      .col-12.col-md-8.col-lg-8
+        figure.max-width-80.ms-5
+          img(src="@/assets/curso/temas/tema2/que_son_modelos.svg", alt="alt")
+      .col-12.col-md-6.col-lg-6
         p.mb-4 Un modelo de datos es una representación visual del sistema de información para identificar las estructuras de datos que lo componen, así como las conexiones entre estas estructuras.
         p.mb-4 Estos modelos pueden tener diferentes niveles de abstracción según la etapa del proceso de diseño en la que se encuentren. Los modelos de datos conceptuales (de más alto nivel) permiten visualizar las relaciones entre los datos mientras que los modelos lógicos representan mejor la forma en la que serán almacenados los datos en el servidor.
     
@@ -114,10 +113,9 @@
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-12.col-md-5.col-lg-5
-          .tarjeta.h-100.d-flex.align-items-center.p-4
-            figure.max-width-80
-              img(src="@/assets/curso/temas/tema2/tipo_modelos_datos.svg", alt="alt")
-      .col-12.col-md-7.col-lg-7
+        figure.max-width-80.ms-5
+          img(src="@/assets/curso/temas/tema2/tipo_modelos_datos.svg", alt="alt")
+      .col-12.col-md-6.col-lg-6
         p.mb-4 Existen varios tipos de modelos de datos que se diferencian por la forma en la que se vinculan los registros entre sí: 
         ul.lista-ul--color
           li 
@@ -133,7 +131,7 @@
             i.fas.fa-check
             | Modelo orientado a objetos, entre otros
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .tarjeta.tarjeta--azul.p-4.mb-5
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -170,38 +168,38 @@
     p.pb-3 El modelo entidad relación, tiene los siguientes elementos:
 
     .row.justify-content-center.pb-5
-      .col-9
+      .col-9.pb-5
         figure
           img(src='@/assets/curso/temas/tema2/modelo_entidad_relacion.svg')
 
     
     .row.justify-content-center.mb-5
-      .col-lg-9.position-relative
-        .avatar
+      .col-lg-11.position-relative
+        .avatar-2
           figure
             img(src="@/assets/curso/temas/tema2/avatar.png", alt="alt").img250
-        .crd.crd--avatarHorizontal.crd--first.py-4
+        .crd.crd--avatarHorizontal.crd--first.py-4.back-yellow
           .row.align-items-center
             .col-auto
-              figure
+              figure.first-item-avatar-tema2
                 img(src="@/assets/curso/temas/tema2/conectada_1.svg", alt="alt").img100
-            .col
+            .col.ms-5
               h5 Calidad de la información
               p Es importante tener en cuenta las variables, la ponderación de estas refleja la calidad de la información, la cual le permitirá obtener información concreta, clara y medible. Es necesario resaltar las características determinantes desde enfoques cualitativos y cuantitativos del dato obtenido. 
-        .crd.crd--avatarHorizontal.py-4
+        .crd.crd--avatarHorizontal.py-4.back-yellow-2
           .row.align-items-center
             .col-auto
-              figure
+              figure.second-item-avatar-tema2
                 img(src="@/assets/curso/temas/tema2/conectada_2.svg", alt="alt").img100
-            .col
+            .col.ms-5
               h5 Aplicación de técnicas
               p Desarrolle técnicas que le permitan tener un panorama completo de la información que se esté analizando, integrando las variables obtenidas en la medición y contrastando detalladamente los datos.
-        .crd.crd--avatarHorizontal.crd--last.py-4
+        .crd.crd--avatarHorizontal.crd--last.py-4.back-yellow
           .row.align-items-center
             .col-auto
-              figure
+              figure.third-item-avatar-tema2
                 img(src="@/assets/curso/temas/tema2/conectada_3.svg", alt="alt").img100
-            .col
+            .col.ms-5
               h5 Comunicación correcta de los resultados
               p En los análisis de resultados, el determinante es saber mostrar la información, tenga en cuenta la objetividad, la claridad, la transparencia y la organización de la información. 
 
@@ -236,7 +234,7 @@
             table
               tr.tabla-b__header
                 th.border-0.m-0.p-0.no-padding Modelo
-                th.border-0.m-0.p-0 Descripción
+                th.border-0.m-0.p-0 Ventajas
                 th.border-0.m-0.p-0 Desventajas
               tr
                 th.no-padding 
