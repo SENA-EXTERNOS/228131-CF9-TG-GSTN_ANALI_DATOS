@@ -31,7 +31,28 @@
       .col-12
         p Los siguientes son algunos conceptos básicos necesarios para comprender cómo trabajar con los diversos tipos de datos que existen en cada organización y cómo se pueden gestionar a través de los sistemas de información para aprovecharlos en la gestión estratégica y en la toma de decisiones:
 
-    // insertar infografias de puntos calientes
+    
+    .imgCont.m-auto
+      .row.justify-content-center.mb-4
+        ImagenInfografica.color-acento-contenido.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/puntos_calientes.svg', alt='', style='')
+
+          .tarjeta.color-acento-botones.p-4(x="16.8%" y="85%" numero="" style='border-radius: 10px; background-color: #FFE8C8')
+            h5.mb-3.text-center Datos:
+            p.mb-0.text-center Un dato es una representación simbólica de un atributo o característica de un elemento o evento. Por si solo carece de significado. Los datos pueden ser de diferentes tipos: números, letras, objetos, figuras entre otros.
+
+          
+          .tarjeta.color-acento-botones.p-4(x="51.5%" y="13.5%" numero="" style='border-radius: 10px; background-color: #FFE8C8')
+            h5.mb-3.text-center Información:
+            p.mb-0.text-center La información es un dato o conjunto de datos con un contexto que les da significado. Son datos que han sido organizados, etiquetados y puestos en contexto.
+
+          
+          .tarjeta.color-acento-botones.p-4(x="83%" y="85%" numero="" style='border-radius: 10px; background-color: #FFE8C8')
+            h5.mb-3.text-center Conocimiento:
+            p.mb-0.text-center El conocimiento es la interpretación de la información. En el conocimiento se involucran la información, la reflexión, la experiencia para proporcionar valor.
+
     .row.justify-content-center.pt-2
       .col-12.pb-3.pt-5
         b Ejemplo: 
@@ -57,7 +78,7 @@
           .figure.col-5.pt-0
             img(src="@/assets/curso/temas/tema1/datos_estructurados.svg", alt="alt").img50
         .row.justify-content-center.p-0.pt-3  
-          .col-6.pb-3
+          .col-5.pb-3
             b.title-like Datos estructurados: 
         .row.justify-content-center.pb-3
           .col-10
@@ -68,7 +89,7 @@
           .figure.col-5.p-0
             img(src="@/assets/curso/temas/tema1/dato_no_estructurados.svg", alt="alt").img50
         .row.justify-content-center.pt-3  
-          .col-6.pb-3
+          .col-5.pb-3
             b.title-like Datos no estructurados:
         .row.justify-content-center.pb-3
           .col-10

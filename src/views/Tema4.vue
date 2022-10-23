@@ -172,77 +172,12 @@
       
       p SQL es el lenguaje estándar de consultas a las bases de datos. Estas consultas permiten almacenar, manipular y recuperar datos de bases de datos relacionales. Al ser SQL un lenguaje estandarizado permite desplegar implementaciones del mismo lenguaje SQL en diferentes sistemas con cambios mínimos.
       
-      h5 Las sentencias SQL se pueden agrupar por funcionalidades:
+      h5.pb-2 Las sentencias SQL se pueden agrupar por funcionalidades:
 
-      .row 
-        .col-12.col-md-4-1.tarjeta.tarjeta--azul
-          .row.justify-content-center.align-items-center.pt-5
-            .col-lg-8
-              figure
-                  img(src='@/assets/curso/temas/tema4/sintaxis_sql_1.svg', alt='alt')
-          .row.justify-content-center.align-items-center.p-5.back-yellow-1
-            h5.text-center Lenguaje de manipulación de datos (DML): 
-            ul.ps-3.lista-ul
-              li 
-                i.fas.fa-check.txt--azul
-                | <em>SELECT</em>
-              li 
-                i.fas.fa-check.txt--azul
-                | <em>INSERT</em>
-              li 
-                i.fas.fa-check.txt--azul
-                | <em>UPDATE</em>
-              li 
-                i.fas.fa-check.txt--azul
-                | <em>DELETE</em>
-        .col-12.col-md-4-1.tarjeta.tarjeta--azul.mx-2
-          .row.justify-content-center.align-items-center.pt-5.pb-4
-            .col-lg-8
-              figure
-                  img(src='@/assets/curso/temas/tema4/sintaxis_sql_2.svg', alt='alt')
-          .row.justify-content-center.align-items-center.p-5.back-yellow-1
-            h5.text-center Lenguaje de definición de datos (DDL): 
-            p CREATE, ALTER, DROP que se aplican a los componentes principales de una base de datos:
-            ul.ps-3.lista-ul
-              li 
-                i.fas.fa-check.txt--azul
-                | Base de datos <em>(DATABASE)</em>
-              li 
-                i.fas.fa-check.txt--azul
-                | Tablas <em>(TABLE)</em> 
-              li 
-                i.fas.fa-check.txt--azul
-                | Vistas <em>(VIEW)</em> 
-              li 
-                i.fas.fa-check.txt--azul
-                | Índices <em>(INDEX)</em> 
-              li 
-                i.fas.fa-check.txt--azul
-                | Procedimientos almacenados <em>(PROCEDURE)</em>
-              li 
-                i.fas.fa-check.txt--azul
-                | Disparadores <em>(TRIGGER)</em>
-
-        .col-12.col-md-4-1.tarjeta.tarjeta--azul
-          .row.justify-content-center.align-items-center.pt-5
-            .col-lg-8
-              figure
-                  img(src='@/assets/curso/temas/tema4/sintaxis_sql_3.svg', alt='alt')
-          .row.justify-content-center.align-items-center.p-5.back-yellow-1
-            h5.text-center Lenguaje de control de datos (DCL): 
-            ul.ps-3.lista-ul
-              li 
-                i.fas.fa-check.txt--azul
-                | <em>COMMIT</em>
-              li 
-                i.fas.fa-check.txt--azul
-                | <em>ROLLBACK</em>
-              li 
-                i.fas.fa-check.txt--azul
-                | <em>GRANT</em>GRANT
-              li 
-                i.fas.fa-check.txt--azul
-                | <em>REVOKE</em>
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          figure
+            img(src='@/assets/curso/temas/tema4/sintaxis_sql_0.svg', alt='alt')
             
       p.pb-4 Las sentencias en SQL no son sensibles a mayúsculas y minúsculas, pero se recomienda usar estos comandos en mayúsculas sostenidas para diferenciarlos de los nombres de tablas y columnas.
 

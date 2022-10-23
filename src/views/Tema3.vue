@@ -8,7 +8,7 @@
       h1 Sistemas de gestión de bases de datos SGBD (DBMS)
 
     .row.justify-content-center.pb-5
-      .tarjeta.tarjeta--gris.p-4
+      .tarjeta.tarjeta--azul.p-4
         pb-3 Los sistemas de gestión de bases de datos - SGBD (o DBMS por sus siglas en inglés: DataBase Management System) son fundamentales para la administración de la información de una organización. Son herramientas de software que permiten configurar, administrar y utilizar bases de datos y así sacar provecho de la información que allí se almacena.
 
     .row.justify-content-center
@@ -18,7 +18,7 @@
             i.fas.fa-quote-left
             i.fas.fa-quote-right
             p.em.text-center.text-regular.bloque-texto-f__texto <em>Al almacenar los datos en un SGBD en vez de en un conjunto de archivos del sistema operativo, se pueden utilizar las características del SGBD para gestionar los datos de un modo robusto y eficiente. A medida que crecen el volumen de los datos y el número de usuarios el apoyo de los SGBD se vuelve indispensable</em> 
-            p.text-center.text-regular.bloque-texto-f__texto <b>(Ramakrishnan, 2011).</b> 
+            p.pb-4.text-center.text-regular.bloque-texto-f__texto <b>(Ramakrishnan, 2011).</b> 
   
     h5 Los SGBD deben mantener cuatro propiedades en las transacciones para garantizar que los datos se procesen de manera fiable.
 
@@ -182,17 +182,15 @@
     .row.justify-content-center.pt-5
       .col-8
         .row.align-middle
-          .titulo-sexto.color-secundario.mb-2.pr-2
+          .titulo-sexto.color-acento-contenido.mb-2.pr-2
             h5 Figura 7.
-            span Componentes de una base de un SGBD
-
-    .row.justify-content-center.pt-3
-      .col-8
+            br
+            em Componentes de una base de un SGBD
         .row.justify-content-center
           .col-12
             .figure
               img(src="@/assets/curso/temas/tema3/componentes.png", alt="componentes").img50
-
+        
     .row.justify-content-center.pt-5
       .col-12
         .row.justify-content-center
@@ -200,40 +198,35 @@
             AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
               .row(titulo="Diccionario de datos")
                 .col-md-8.mb-4.mb-md-0
-                  b Diccionario de datos     
-                  p.pt-5 Es un conjunto de esquemas que reflejan las características de los datos incluidos en la base de datos (nombre, tipo, tamaño y relaciones entre datos). En el diccionario de datos se incluye, además, la información de los permisos de uso que tiene cada usuario que utiliza el sistema.
+                  p Es un conjunto de esquemas que reflejan las características de los datos incluidos en la base de datos (nombre, tipo, tamaño y relaciones entre datos). En el diccionario de datos se incluye, además, la información de los permisos de uso que tiene cada usuario que utiliza el sistema.
 
               div(titulo="Lenguajes de datos")
                 .col-md-8.mb-4.mb-md-0
-                  b Lenguajes de datos    
-                  p.pt-5.pb-3 Son los lenguajes disponibles para los diversos tipos de manipulación de datos: 
+                  p Son los lenguajes disponibles para los diversos tipos de manipulación de datos: 
                   ul.lista-ul.ps-3
                     li 
-                      i.fas.fa-angle-right.txt--orange
+                      i.fas.fa-check.txt--azul
                       |   Definición (DDL) que permite crear, eliminar y modificar estructuras
                     li 
-                      i.fas.fa-angle-right.txt--orange
+                      i.fas.fa-check.txt--azul
                       |   Control (DCL) que permite especificar permisos sobre los objetos y crear o eliminar usuarios
                     li 
-                      i.fas.fa-angle-right.txt--orange
+                      i.fas.fa-check.txt--azul
                       |   Manipulación (DML) que permite la inserción, actualización, eliminación y consulta de datos 
 
                   P.PT-3 Estos tres lenguajes se engloban en el lenguaje SQL (Structured Query Language o Lenguaje de consulta estructurada).
 
               div(titulo="Herramientas de administración")
                 .col-md-8.mb-4.mb-md-0
-                  b Herramientas de administración   
-                  p.pt-5.pb-3 Son las herramientas que permiten gestionar tareas como: seguridad, control de recuperación, gestión de diccionarios de datos, importación y exportación de datos, programación de aplicaciones. 
+                  p Son las herramientas que permiten gestionar tareas como: seguridad, control de recuperación, gestión de diccionarios de datos, importación y exportación de datos, programación de aplicaciones. 
 
               div(titulo="Objetos")
                 .col-md-8.mb-4.mb-md-0
-                  b Objetos   
-                  p.pt-5.pb-3 Son los elementos que permiten la definición y manipulación de datos: tablas, consultas, funciones, disparadores.
+                  p Son los elementos que permiten la definición y manipulación de datos: tablas, consultas, funciones, disparadores.
 
               div(titulo="Planificadores")
                 .col-md-8.mb-4.mb-md-0
-                  b Planificadores   
-                  p.pt-5.pb-3 Herramientas que permiten programar y automatizar la ejecución de tareas como puede ser cálculo de resultados o copias de seguridad.
+                  p Herramientas que permiten programar y automatizar la ejecución de tareas como puede ser cálculo de resultados o copias de seguridad.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema3/diccionario.png', alt='diccionario')

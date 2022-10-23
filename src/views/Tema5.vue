@@ -132,24 +132,20 @@
             AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
               .row(titulo="Almacén clave - valor")
                 .col-md-8.mb-4.mb-md-0
-                  b Almacén clave - valor    
-                  p.pt-5 Es la forma más sencilla de bases de datos NoSQL. Los datos se representan como colecciones de pares clave-valor. Este tipo de base de datos es más rápido y óptimo para los accesos. En este caso la clave (Key) sirve como identificador único.
-                  p.pt-3 Las bases de datos NoSQL más populares de este tipo son: Amazon Dynamo DB y Cassandra.
+                  p Es la forma más sencilla de bases de datos NoSQL. Los datos se representan como colecciones de pares clave-valor. Este tipo de base de datos es más rápido y óptimo para los accesos. En este caso la clave <em>(Key)</em> sirve como identificador único.
+                  p.pt-3 Las bases de datos NoSQL más populares de este tipo son: <em>Amazon Dynamo DB y Cassandra</em> .
               div(titulo="Almacenes de documentos")
                 .col-md-8.mb-4.mb-md-0
-                  b Almacenes de documentos   
-                  p.pt-5 Este tipo de base de datos guarda la información como un listado de documentos desestructurados. Aquí se combinan formatos de marcación estándar como XML (Lenguaje de marcado extensible o Extensible Markup Language) y JSON (Notación de objetos en JavaScript o JavaScript Object Notation) con formatos propietarios como PDF y Word de Microsoft.
-                  p.pt-3 La base de datos de este tipo más utilizada es MongoDB.
+                  p Este tipo de base de datos guarda la información como un listado de documentos desestructurados. Aquí se combinan formatos de marcación estándar como <em>XML (Lenguaje de marcado extensible o Extensible Markup Language) y JSON (Notación de objetos en JavaScript o JavaScript Object Notation)</em> con formatos propietarios como <em>PDF y Word de Microsoft</em>.
+                  p.pt-3 La base de datos de este tipo más utilizada es <em>MongoDB</em>.
               div(titulo="Almacenes de grafos")
                 .col-md-8.mb-4.mb-md-0
-                  b Almacenes de grafos   
-                  p.pt-5 Este tipo de base de datos organiza la información en estructuras de grafos dirigidos. En estas estructuras los objetos se conocen como nodos y aristas (edges). El principal beneficio de estas bases de datos es la velocidad y se usan en aplicaciones de redes sociales como Twitter.
-                  p.pt-3 Algunas bases de datos de grafos son: Neo4J y AllegroGraph.
+                  p Este tipo de base de datos organiza la información en estructuras de grafos dirigidos. En estas estructuras los objetos se conocen como nodos y aristas <em>(edges)</em>. El principal beneficio de estas bases de datos es la velocidad y se usan en aplicaciones de redes sociales como Twitter.
+                  p.pt-3 Algunas bases de datos de grafos son: <em>Neo4J y AllegroGraph</em>.
               div(titulo="Bases de datos columnares")
                 .col-md-8.mb-4.mb-md-0
-                  b Bases de datos columnares   
-                  p.pt-5 Consisten en un sistema de almacenamiento distribuido para manipulación de datos estructurados, diseñado para grandes volúmenes de datos. Son ampliamente utilizadas para aplicaciones de Big Data.
-                  p.pt-3 Algunas bases de datos de este tipo son: Apache HBase, Hypertable y Cassandra.
+                  p Consisten en un sistema de almacenamiento distribuido para manipulación de datos estructurados, diseñado para grandes volúmenes de datos. Son ampliamente utilizadas para aplicaciones de Big Data.
+                  p.pt-3 Algunas bases de datos de este tipo son: <em>Apache HBase, Hypertable y Cassandra</em>.
 
     .row.justify-content-center.pt-5.pb-5
       .col-12

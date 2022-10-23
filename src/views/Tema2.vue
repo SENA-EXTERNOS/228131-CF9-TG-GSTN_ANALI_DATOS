@@ -173,7 +173,7 @@
           img(src='@/assets/curso/temas/tema2/modelo_entidad_relacion.svg')
 
     
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.pt-5.mb-5
       .col-lg-11.position-relative
         .avatar-2
           figure
