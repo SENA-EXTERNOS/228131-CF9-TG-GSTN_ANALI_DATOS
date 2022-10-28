@@ -204,32 +204,170 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Marco de referencia DAMA Internacional',
+      referencia:
+        'DAMA Internacional (2022). <em>Publicaciones DMBOK - Data Management Body of Knowledge.</em> DAMA Internacional.',
+      tipo: 'Sitio Web',
+      link: 'https://www.dama.org/cpages/body-of-knowledge',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Herramientas de modelado: <em>GitMind</em>',
+      referencia:
+        'GitMind. (sf.). <em>Mejor programa para hacer mapa mental y conceptual.</em>GitMind.',
+      tipo: 'Sitio Web',
+      link: 'https://gitmind.com/es/',
+    },
+    {
+      tema: 'Marco de referencia COBIT',
+      referencia:
+        'ISACA (2022). <em>COBIT Control objectives for Information Technologies.</em> ISACA Resources.',
+      tipo: 'Sitio Web',
+      link: 'https://www.isaca.org/resources/cobit',
+    },
+    {
+      tema: 'Herramientas de modelado: <em>Lucidchart</em>',
+      referencia:
+        'Lucidchart. (sf.) <em>Intelligent diagramming.</em> Lucidchart.',
+      tipo: 'Sitio Web',
+      link: 'https://www.lucidchart.com/pages/',
+    },
+    {
+      tema: 'Marco de referencia <em>Governance Institute</em>',
+      referencia:
+        'The Data Governance Institute (2022). <em>Data Governance Framework & Components. The Data Governance Institute</em>',
+      tipo: 'Sitio Web',
+      link: 'https://datagovernance.com/data-governance-framework-components/',
+    },
+    {
+      tema: 'Marco de referencia TOGAF',
+      referencia: '<em>The Open Group (2022). TOGAF. The Open Group</em>',
+      tipo: 'Sitio Web',
+      link: 'https://www.opengroup.org/togaf',
+    },
+    {
+      tema: 'Herramientas de modelado: Visual Paradigm',
+      referencia:
+        '<em>Visual Paradigm (sf). Design database with professional ERD Software. Visual Paradigm</em>',
+      tipo: 'Sitio Web',
+      link:
+        'https://www.visual-paradigm.com/features/database-design-with-erd-tools/',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Datos',
+      significado:
+        'un dato es una representación simbólica de un atributo o característica de un elemento o evento.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Datos estructurados',
+      significado:
+        'se consideran datos estructurados cuando tienen una estructura bien definida, siguen un orden y son de fácil acceso y uso para los sistemas de información y las personas.',
+    },
+    {
+      termino: 'Datos no estructurados',
+      significado:
+        'este tipo de datos no tiene un modelo o estructura muy definida y puede tener diferentes formatos como texto, imágenes, sonido, video lo que hace más difícil su procesamiento y análisis.',
+    },
+    {
+      termino: 'Información',
+      significado:
+        'la información es un dato o conjunto de datos con un contexto que les da significado.',
+    },
+    {
+      termino: 'JSON',
+      significado:
+        'notación de objetos en <em>JavaScript</em> o <em>JavaScript Object Notation</em> en inglés.',
+    },
+    {
+      termino: 'Modelado de datos',
+      significado:
+        'es un proceso que permite analizar y definir los datos generados por la organización y la relación entre estos con el fin de identificar sus características y dependencias.',
+    },
+    {
+      termino: 'NoSQL',
+      significado:
+        '<em>Not only SQL</em> son una categoría de sistemas de gestión de bases de datos que no utilizan SQL como lenguaje de consulta principal.',
+    },
+    {
+      termino: 'Sistema de información',
+      significado:
+        'es un conjunto de componentes interrelacionados que trabajan juntos para recopilar, procesar, almacenar y difundir información para apoyar la toma de decisiones.',
+    },
+    {
+      termino: 'SQL',
+      significado: 'es el lenguaje estándar de consultas a las bases de datos.',
+    },
+    {
+      termino: 'XML',
+      significado:
+        'lenguaje de marcado extensible o <em>Extensible Markup Language</em> en inglés.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Bisson, A. (2021). SQL - Fundamentos del lenguaje con ejercicios corregidos. 3ra edición.',
+      link:
+        'https://www-eni-training-com.bdigital.sena.edu.co/portal/client/mediabook/home',
+    },
+    {
+      referencia:
+        'DAMA Internacional. (2022). Imágenes de rueda DMBOK v2. Obtenido de',
+      link: 'https://www.dama.org/cpages/dmbok-2-wheel-images',
+    },
+    {
+      referencia:
+        'Data Governance Institute. (s.f.). Marco de Gobierno de Datos de la DGI. Obtenido de',
+      link: 'https://datagovernance.com/the-dgi-data-governance-framework/',
+    },
+    {
+      referencia:
+        'Fernández, A. (2020). Ciencia de datos para la ciberseguridad. 1ra. Edición. RAMA.',
+      link:
+        'https://www.alphaeditorialcloud.com/reader/ciencia-de-datos-para-la-ciberseguridad-1628020600?location=eyJjaGFwdGVySHJlZiI6IngwMiIsImNmaSI6Ii80W3gwMl0vMi8yW19pZENvbnRhaW5lcjAwMl0vMiJ9',
+    },
+    {
+      referencia:
+        'García, J. (2018). Ciencia de datos Técnicas analíticas y aprendizaje estadístico en un enfoque práctico. Editorial Altaria.',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/ciencia-de-datos?location=1',
+    },
+    {
+      referencia: 'Jiménez, F. (2018). Principios de COBIT 5. Obtenido de',
+      link: 'https://geniusitt.com/blog/que-es-cobit-5/',
+    },
+    {
+      referencia: 'The Open Group. (2018). El estándar TOGAF. Obtenido de',
+      link: 'https://www.opengroup.org/togaf',
+    },
+    {
+      referencia:
+        'Jones, H. (2019). Ciencia de los datos: la guía definitiva sobre análisis de datos, minería de datos, almacenamiento de datos, visualización de datos. Publicación independiente. ',
+      link:
+        'https://biblioteca.sena.edu.co/F/QK1UI7RDS4Q5XCEJHTEG681M74XTARHJQABMVRV1F1YV8U8ELM-13705?func=full-set-set&set_number=003407&set_entry=000001&format=999',
+    },
+    {
+      referencia:
+        'Joyanes, L. (2015). Sistemas de información en la empresa. Alfaomega',
+    },
+    {
+      referencia:
+        'Mannino, M. V. (2007). Administración de bases de datos. McGraw-Hill Irwin.',
+    },
+    {
+      referencia:
+        'Orbegozo Arana, Borja. (2019). Gestión de bases de datos con SQL, MySQL y Access: curso práctico. Alfaomega.',
+    },
+    {
+      referencia:
+        'Piattini, M., Ruiz, F. (2020). Gobierno      y      gestión de las      tecnologías y los      sistemas de      información. Ra-Ma.',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/gobierno-y-gestion-de-las-tecnologias-y-los-sistemas-de-informacion-1591724977',
+    },
+    {
+      referencia:
+        'Ramakrishnan, R. (2011). Sistemas de gestión de bases de datos. McGraw-Hill España.',
     },
   ],
   creditos: {
