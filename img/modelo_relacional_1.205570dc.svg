@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="156" viewBox="0 0 610 156">
+  <g id="Group_139098" data-name="Group 139098" transform="translate(-810 -783)">
+    <g id="Rectangle_42801" data-name="Rectangle 42801" transform="translate(810 800)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="106" height="35" stroke="none"/>
+      <rect x="0.5" y="0.5" width="105" height="34" fill="none"/>
+    </g>
+    <g id="Rectangle_42803" data-name="Rectangle 42803" transform="translate(1048 800)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="106" height="49" stroke="none"/>
+      <rect x="0.5" y="0.5" width="105" height="48" fill="none"/>
+    </g>
+    <g id="Rectangle_42805" data-name="Rectangle 42805" transform="translate(1286 800)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="134" height="139" stroke="none"/>
+      <rect x="0.5" y="0.5" width="133" height="138" fill="none"/>
+    </g>
+    <g id="Rectangle_42802" data-name="Rectangle 42802" transform="translate(810 783)" fill="#4dd0e1" stroke="#707070" stroke-width="1">
+      <rect width="106" height="19" stroke="none"/>
+      <rect x="0.5" y="0.5" width="105" height="18" fill="none"/>
+    </g>
+    <g id="Rectangle_42804" data-name="Rectangle 42804" transform="translate(1048 783)" fill="#4dd0e1" stroke="#707070" stroke-width="1">
+      <rect width="106" height="19" stroke="none"/>
+      <rect x="0.5" y="0.5" width="105" height="18" fill="none"/>
+    </g>
+    <g id="Rectangle_42806" data-name="Rectangle 42806" transform="translate(1286 783)" fill="#e8e8e8" stroke="#707070" stroke-width="1">
+      <rect width="134" height="19" stroke="none"/>
+      <rect x="0.5" y="0.5" width="133" height="18" fill="none"/>
+    </g>
+    <text id="Provincias" transform="translate(842 795.5)" font-size="8" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Provincias</tspan></text>
+    <text id="ID_Prov_AUTO" data-name="ID Prov         AUTO" transform="translate(823.5 813.714)" font-size="8" font-family="Roboto-Regular, Roboto" text-decoration="underline"><tspan x="0" y="0" xml:space="preserve">ID Prov         AUTO</tspan></text>
+    <text id="Localidades" transform="translate(1080 796)" font-size="8" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Localidades</tspan></text>
+    <text id="ID_Localidad_AUTO" data-name="ID Localidad    AUTO" transform="translate(1061.817 813.714)" font-size="8" font-family="Roboto-Regular, Roboto" text-decoration="underline"><tspan x="0" y="0" xml:space="preserve">ID Localidad    AUTO</tspan></text>
+    <text id="Empleados" transform="translate(1337.992 796)" font-size="8" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Empleados</tspan></text>
+    <text id="ID_Empleado_AUTO" data-name="ID_Empleado    AUTO" transform="translate(1302.992 818.256)" font-size="8" font-family="Roboto-Regular, Roboto" text-decoration="underline"><tspan x="0" y="0" xml:space="preserve">ID_Empleado    AUTO</tspan></text>
+    <text id="ID_Localidad_NUMBER" data-name="ID_Localidad      NUMBER" transform="translate(1302.992 866.5)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">ID_Localidad      NUMBER</tspan></text>
+    <text id="Sueldo_NUMBER" data-name="Sueldo                 NUMBER" transform="translate(1302.992 913.369)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Sueldo                 NUMBER</tspan></text>
+    <text id="Antiguedad_NUMBER" data-name="Antiguedad         NUMBER" transform="translate(1302.992 928.782)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Antiguedad         NUMBER</tspan></text>
+    <text id="Telefono_NUMBER" data-name="Telefono             NUMBER" transform="translate(1302.992 881.543)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Telefono             NUMBER</tspan></text>
+    <text id="Nombre_VARCHAR" data-name="Nombre              VARCHAR" transform="translate(1302.992 833.587)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Nombre              VARCHAR</tspan></text>
+    <text id="Apellidos_VARCHAR" data-name="Apellidos            VARCHAR" transform="translate(1302.992 849)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Apellidos            VARCHAR</tspan></text>
+    <text id="Direccion_VARCHAR" data-name="Direccion            VARCHAR" transform="translate(1302.992 897.956)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Direccion            VARCHAR</tspan></text>
+    <text id="Localidad_VARCHAR" data-name="Localidad        VARCHAR" transform="translate(1061.817 828.211)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Localidad        VARCHAR</tspan></text>
+    <text id="ID_Prov_NUMBER" data-name="ID_Prov            NUMBER" transform="translate(1061.817 841.928)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">ID_Prov            NUMBER</tspan></text>
+    <text id="FK_ID_Prov" transform="translate(960 802.715)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">FK_ID_Prov</tspan></text>
+    <text id="_1_" data-name="1       " transform="translate(922 809.714)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">1       </tspan></text>
+    <text id="FK_ID_Localidad" transform="translate(1186.492 802.715)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">FK_ID_Localidad</tspan></text>
+    <text id="_1_2" data-name="1       " transform="translate(1159 809.714)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">1       </tspan></text>
+    <text id="Provincia_VARCHAR" data-name="Provincia     VARCHAR" transform="translate(823.5 830.336)" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Provincia     VARCHAR</tspan></text>
+    <g id="Group_139096" data-name="Group 139096" transform="translate(-1906.45 11511.316)">
+      <rect id="Rectangle_42800" data-name="Rectangle 42800" width="122.938" height="2.497" transform="translate(3060.45 -10699.187)" fill="#0f2771"/>
+      <path id="Path_195465" data-name="Path 195465" d="M-1485.927,1114.756l-8.047-4.646v9.292Z" transform="translate(4677.361 -11812.693)" fill="#0f2771"/>
+    </g>
+    <g id="Group_139097" data-name="Group 139097" transform="translate(-2145.45 11511.316)">
+      <rect id="Rectangle_42800-2" data-name="Rectangle 42800" width="122.938" height="2.497" transform="translate(3060.45 -10699.187)" fill="#0f2771"/>
+      <path id="Path_195465-2" data-name="Path 195465" d="M-1485.927,1114.756l-8.047-4.646v9.292Z" transform="translate(4677.361 -11812.693)" fill="#0f2771"/>
+    </g>
+    <circle id="Ellipse_5131" data-name="Ellipse 5131" cx="1.5" cy="1.5" r="1.5" transform="translate(816 809)" fill="#4dd0e1"/>
+    <circle id="Ellipse_5132" data-name="Ellipse 5132" cx="1.5" cy="1.5" r="1.5" transform="translate(816 826)" fill="#4dd0e1"/>
+    <circle id="Ellipse_5133" data-name="Ellipse 5133" cx="1.5" cy="1.5" r="1.5" transform="translate(1054 810)" fill="#4dd0e1"/>
+    <circle id="Ellipse_5134" data-name="Ellipse 5134" cx="1.5" cy="1.5" r="1.5" transform="translate(1054 824)" fill="#4dd0e1"/>
+    <circle id="Ellipse_5136" data-name="Ellipse 5136" cx="1.5" cy="1.5" r="1.5" transform="translate(1294 814)" fill="#4dd0e1"/>
+    <circle id="Ellipse_5137" data-name="Ellipse 5137" cx="1.5" cy="1.5" r="1.5" transform="translate(1294 830)" fill="#4dd0e1"/>
+    <circle id="Ellipse_5138" data-name="Ellipse 5138" cx="1.5" cy="1.5" r="1.5" transform="translate(1294 846)" fill="#4dd0e1"/>
+    <circle id="Ellipse_5139" data-name="Ellipse 5139" cx="1.5" cy="1.5" r="1.5" transform="translate(1294 862)" fill="#4dd0e1"/>
+    <circle id="Ellipse_5140" data-name="Ellipse 5140" cx="1.5" cy="1.5" r="1.5" transform="translate(1294 878)" fill="#4dd0e1"/>
+    <circle id="Ellipse_5141" data-name="Ellipse 5141" cx="1.5" cy="1.5" r="1.5" transform="translate(1294 894)" fill="#4dd0e1"/>
+    <circle id="Ellipse_5142" data-name="Ellipse 5142" cx="1.5" cy="1.5" r="1.5" transform="translate(1294 910)" fill="#4dd0e1"/>
+    <circle id="Ellipse_5143" data-name="Ellipse 5143" cx="1.5" cy="1.5" r="1.5" transform="translate(1294 926)" fill="#4dd0e1"/>
+    <circle id="Ellipse_5135" data-name="Ellipse 5135" cx="1.5" cy="1.5" r="1.5" transform="translate(1054 838)" fill="#4dd0e1"/>
+  </g>
+</svg>

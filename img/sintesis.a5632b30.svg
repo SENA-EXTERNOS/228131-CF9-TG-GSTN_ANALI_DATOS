@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1241.354" height="1183.728" viewBox="0 0 1241.354 1183.728">
+  <g id="Group_139830" data-name="Group 139830" transform="translate(-180 -314)">
+    <path id="Path_196891" data-name="Path 196891" d="M-14180-9177.7v-95.74h196v95.74" transform="translate(15329.356 10341.226)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_196892" data-name="Path 196892" d="M-14180-9204.273v-69.161h238v69.161" transform="translate(14892.939 9781.871)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_196895" data-name="Path 196895" d="M-14180-9037.758v-235.678h36v235.678" transform="translate(14993.441 9781.87)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_196894" data-name="Path 196894" d="M-14180-9220.242v-53.193h131.75v53.193" transform="translate(15416.606 10590.47)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_196896" data-name="Path 196896" d="M-14180-9220.242v-53.193h167.5v53.193" transform="translate(15131.105 10590.47)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_196893" data-name="Path 196893" d="M-14180-9137.743v-135.693h38.666v135.693" transform="translate(15193.023 10590.47)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <g id="Rectangle_41022" data-name="Rectangle 41022" transform="translate(722.688 314)" fill="none" stroke="#0f2771" stroke-width="3">
+      <rect width="219" height="73" rx="36.5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="216" height="70" rx="35" fill="none"/>
+    </g>
+    <text id="Arquitectura_de_datos" data-name="Arquitectura de datos" transform="translate(744.688 356)" fill="#0f2771" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Arquitectura de datos</tspan></text>
+    <line id="Line_188" data-name="Line 188" y2="45.468" transform="translate(832.188 387)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_338" data-name="Line 338" y2="45.468" transform="translate(832.688 463.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_343" data-name="Line 343" y2="99.936" transform="translate(464.104 463.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_348" data-name="Line 348" y2="40.903" transform="translate(464.104 633.532)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_351" data-name="Line 351" y2="40.903" transform="translate(464.104 805.532)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_349" data-name="Line 349" y2="40.903" transform="translate(464.104 694.064)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_350" data-name="Line 350" y2="40.903" transform="translate(464.104 866.064)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_354" data-name="Line 354" y2="35.532" transform="translate(1245.979 871.436)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_355" data-name="Line 355" y2="35.532" transform="translate(1245.979 970.354)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_356" data-name="Line 356" y2="35.532" transform="translate(1245.979 1032.258)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_357" data-name="Line 357" y2="35.532" transform="translate(1149.354 1225.937)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_359" data-name="Line 359" y2="35.532" transform="translate(1149.354 1282.471)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_360" data-name="Line 360" y2="35.532" transform="translate(1345.354 1282.471)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_358" data-name="Line 358" y2="35.532" transform="translate(1344.604 1225.937)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_352" data-name="Line 352" y2="40.903" transform="translate(464.104 979.564)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_353" data-name="Line 353" y2="118.839" transform="translate(464.104 1051.597)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_344" data-name="Line 344" y2="45.468" transform="translate(1247.104 463.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_345" data-name="Line 345" y2="14.308" transform="translate(1247.104 660.128)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_346" data-name="Line 346" y2="13.84" transform="translate(1247.104 695.436)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Line_347" data-name="Line 347" y1="13.84" transform="translate(1247.104 832.192)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <text id="sus_características_son" data-name="sus características son" transform="translate(760.688 450.936)" fill="#0f2771" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">sus características son</tspan></text>
+    <text id="es" transform="translate(454.854 450.936)" fill="#0f2771" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">es</tspan></text>
+    <text id="permiten" transform="translate(437.104 687.436)" fill="#0f2771" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">permiten</tspan></text>
+    <text id="se_hace_mediante" data-name="se hace mediante" transform="translate(409.104 860.032)" fill="#0f2771" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">se hace mediante</tspan></text>
+    <text id="pueden_ser" data-name="pueden ser" transform="translate(430.104 1039.032)" fill="#0f2771" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">pueden ser</tspan></text>
+    <text id="aprovecha" transform="translate(1212.479 450.936)" fill="#0f2771" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">aprovecha</tspan></text>
+    <text id="pueden_ser-2" data-name="pueden ser" transform="translate(1212.604 689.968)" fill="#0f2771" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">pueden ser</tspan></text>
+    <text id="administradas_con" data-name="administradas con" transform="translate(1188.479 861.597)" fill="#0f2771" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">administradas con</tspan></text>
+    <text id="basados_en" data-name="basados en" transform="translate(1208.104 1022.419)" fill="#0f2771" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">basados en</tspan></text>
+    <text id="pueden_ser-3" data-name="pueden ser" transform="translate(1114.854 1276.47)" fill="#0f2771" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">pueden ser</tspan></text>
+    <text id="pueden_ser-4" data-name="pueden ser" transform="translate(1309.354 1276.47)" fill="#0f2771" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">pueden ser</tspan></text>
+    <rect id="Rectangle_41025" data-name="Rectangle 41025" width="218" height="73" rx="21" transform="translate(355.104 562.968)" fill="#0f2771"/>
+    <rect id="Rectangle_43749" data-name="Rectangle 43749" width="180.5" height="73" rx="21" transform="translate(623.438 562.968)" fill="#0f2771"/>
+    <rect id="Rectangle_43752" data-name="Rectangle 43752" width="180.5" height="73" rx="21" transform="translate(645.354 726.468)" fill="#4dd0e1"/>
+    <rect id="Rectangle_43750" data-name="Rectangle 43750" width="181" height="73" rx="21" transform="translate(860.438 562.968)" fill="#0f2771"/>
+    <rect id="Rectangle_43753" data-name="Rectangle 43753" width="164" height="73" rx="21" transform="translate(1067.354 562.968)" fill="#0f2771"/>
+    <rect id="Rectangle_43756" data-name="Rectangle 43756" width="164" height="73" rx="21" transform="translate(1065.354 734.968)" fill="#4dd0e1"/>
+    <rect id="Rectangle_43757" data-name="Rectangle 43757" width="164" height="73" rx="21" transform="translate(1158.854 902.161)" fill="#feca2e"/>
+    <rect id="Rectangle_43758" data-name="Rectangle 43758" width="164" height="73" rx="21" transform="translate(1067.354 1154.468)" fill="#efd790"/>
+    <rect id="Rectangle_43760" data-name="Rectangle 43760" width="105.25" height="73" rx="21" transform="translate(898.104 1333.728)" fill="#f3e8c7"/>
+    <rect id="Rectangle_43763" data-name="Rectangle 43763" width="105.25" height="73" rx="21" transform="translate(919.104 1424.728)" fill="#f6f0dc"/>
+    <rect id="Rectangle_43761" data-name="Rectangle 43761" width="111" height="73" rx="21" transform="translate(1063.104 1333.728)" fill="#f3e8c7"/>
+    <rect id="Rectangle_43762" data-name="Rectangle 43762" width="110.875" height="73" rx="21" transform="translate(1040.104 1424.728)" fill="#f6f0dc"/>
+    <rect id="Rectangle_43759" data-name="Rectangle 43759" width="164" height="73" rx="21" transform="translate(1253.104 1154.468)" fill="#efd790"/>
+    <rect id="Rectangle_43764" data-name="Rectangle 43764" width="108" height="73" rx="21" transform="translate(1189.354 1333.728)" fill="#f3e8c7"/>
+    <rect id="Rectangle_43765" data-name="Rectangle 43765" width="104" height="73" rx="21" transform="translate(1316.354 1333.728)" fill="#f3e8c7"/>
+    <rect id="Rectangle_43754" data-name="Rectangle 43754" width="164" height="73" rx="21" transform="translate(1255.354 562.968)" fill="#0f2771"/>
+    <rect id="Rectangle_43755" data-name="Rectangle 43755" width="164" height="73" rx="21" transform="translate(1257.354 734.968)" fill="#4dd0e1"/>
+    <rect id="Rectangle_43751" data-name="Rectangle 43751" width="181" height="73" rx="21" transform="translate(840.729 726.468)" fill="#4dd0e1"/>
+    <rect id="Rectangle_43744" data-name="Rectangle 43744" width="218" height="73" rx="21" transform="translate(355.104 734.968)" fill="#4dd0e1"/>
+    <rect id="Rectangle_43745" data-name="Rectangle 43745" width="218" height="73" rx="21" transform="translate(355.104 909)" fill="#feca2e"/>
+    <rect id="Rectangle_43766" data-name="Rectangle 43766" width="190" height="73" rx="21" transform="translate(599.521 1162.968)" fill="#efd790"/>
+    <rect id="Rectangle_43767" data-name="Rectangle 43767" width="190" height="73" rx="21" transform="translate(388 1162.968)" fill="#efd790"/>
+    <rect id="Rectangle_43768" data-name="Rectangle 43768" width="190" height="73" rx="21" transform="translate(180 1162.968)" fill="#efd790"/>
+    <text id="Conjunto_de_métodos" data-name="Conjunto de métodos" transform="translate(398.104 603.968)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Conjunto de métodos</tspan></text>
+    <text id="Seguridad" transform="translate(681.438 603.968)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Seguridad</tspan></text>
+    <text id="Escalabilidad" transform="translate(693.354 767.468)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Escalabilidad</tspan></text>
+    <text id="Integración_de_Datos" data-name="Integración de Datos" transform="translate(886.729 603.968)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Integración de Datos</tspan></text>
+    <text id="Datos" transform="translate(1131.354 603.968)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Datos</tspan></text>
+    <text id="Estructurada" transform="translate(1102.854 775.968)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Estructurada</tspan></text>
+    <text id="Sistemas_de_Gestión_de_Bases_de_Datos" data-name="Sistemas de Gestión
+de Bases de Datos" transform="translate(1176.854 934.161)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Sistemas de Gestión</tspan><tspan x="0" y="18">de Bases de Datos</tspan></text>
+    <text id="SQL" transform="translate(1136.354 1195.468)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">SQL</tspan></text>
+    <text id="Oracle" transform="translate(931.104 1374.728)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Oracle</tspan></text>
+    <text id="MySQL" transform="translate(949.104 1465.728)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">MySQL</tspan></text>
+    <text id="Access" transform="translate(1095.104 1374.728)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Access</tspan></text>
+    <text id="PostgreSQL" transform="translate(1058.104 1465.728)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">PostgreSQL</tspan></text>
+    <text id="No_SQL" data-name="No SQL" transform="translate(1311.104 1195.468)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">No SQL</tspan></text>
+    <text id="Redis" transform="translate(1226.354 1374.728)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Redis</tspan></text>
+    <text id="Mongo_BD" data-name="Mongo BD" transform="translate(1336.354 1374.728)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Mongo BD</tspan></text>
+    <text id="Información" transform="translate(1299.354 603.968)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Información</tspan></text>
+    <text id="No_Estructurada" data-name="No Estructurada" transform="translate(1294.854 775.968)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">No Estructurada</tspan></text>
+    <text id="Adaptabilidad" transform="translate(888.229 767.468)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Adaptabilidad</tspan></text>
+    <text id="Definición_de_uso_de_datos" data-name="Definición de uso de datos" transform="translate(382.104 775.968)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Definición de uso de datos</tspan></text>
+    <text id="Modelos_de_datos" data-name="Modelos de datos" transform="translate(408.104 950)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Modelos de datos</tspan></text>
+    <text id="Modelo_Jerárquico" data-name="Modelo Jerárquico" transform="translate(424 1203.968)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Modelo Jerárquico</tspan></text>
+    <text id="Modelo_Relacional" data-name="Modelo Relacional" transform="translate(217 1203.968)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Modelo Relacional</tspan></text>
+    <text id="Modelo_Entidad_Relación" data-name="Modelo Entidad Relación" transform="translate(617.521 1203.968)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Modelo Entidad Relación</tspan></text>
+    <path id="Path_196884" data-name="Path 196884" d="M-13921.418-9273.436H-14180v81.968" transform="translate(14644.104 9623.936)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_196886" data-name="Path 196886" d="M-14180-9218.9v-54.531h200.5v54.531" transform="translate(15320.604 9781.871)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_196890" data-name="Path 196890" d="M-14180-9202.4v-71.031h412.02v71.031" transform="translate(14468.002 10365.936)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_196887" data-name="Path 196887" d="M-14180-9273.436v25.5h200.5v-25.5" transform="translate(15320.604 9907.872)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_196888" data-name="Path 196888" d="M-14180-9247.936v-25.5h200.5v25.5" transform="translate(15320.604 9982.967)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_196889" data-name="Path 196889" d="M-14180-9273.436v25.5h200.5v-25.5" transform="translate(15320.604 10079.872)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_196885" data-name="Path 196885" d="M-14180-9273.436h305.667v81.968" transform="translate(15121.688 9623.936)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Path_196897" data-name="Path 196897" d="M-11654.333-9053.9h45" transform="translate(12759.333 10370.936)" fill="none" stroke="#707070" stroke-width="1.5"/>
+  </g>
+</svg>
