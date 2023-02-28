@@ -13,20 +13,19 @@
       .col-8
         .row.align-middle
           .titulo-sexto.color-acento-contenido.mb-2.pr-2
-            h5 Figura 1.
+            h5 Figura 1
             br
             em Ejemplo de Cohesión en Python
         .row
           .col-12
-            img(src="@/assets/curso/temas/tema1/minuto.svg", alt="minuto_en_internet").img100
+            img(src="@/assets/curso/temas/tema1/1.svg", alt="minuto_en_internet").img100
             figcaption Nota: tomada la información de https://www.statista.com            
 
     .row.justify-content-center.pt-5
       .col-12
         p Las empresas pueden (y deben) sacar provecho de los datos que generan día a día y esto es posible por medio de los sistemas de información, los cuales permiten recolectar, almacenar, procesar y explotar los datos disponibles para que sirvan de insumo para la planificación y la toma de decisiones. Así las decisiones estarán sustentadas en información y no en la intuición.
     
-    #t_1_1.titulo-segundo.color-acento-contenido.pt-5
-      h2 1.1  Conceptos básicos: datos e información
+    h3.pt-5 Conceptos básicos: datos e información
     .row.justify-content-center.pt-2
       .col-12
         p Los siguientes son algunos conceptos básicos necesarios para comprender cómo trabajar con los diversos tipos de datos que existen en cada organización y cómo se pueden gestionar a través de los sistemas de información para aprovecharlos en la gestión estratégica y en la toma de decisiones:
@@ -40,37 +39,37 @@
               img(src='@/assets/curso/temas/tema1/puntos_calientes.svg', alt='', style='')
 
           .tarjeta.color-acento-botones.p-4(x="16.8%" y="85%" numero="" style='border-radius: 10px; background-color: #FFE8C8')
-            h5.mb-3.text-center Datos:
-            p.mb-0.text-center Un dato es una representación simbólica de un atributo o característica de un elemento o evento. Por si solo carece de significado. Los datos pueden ser de diferentes tipos: números, letras, objetos, figuras entre otros.
+            h5.mb-3.text-center Datos
+            p.mb-0.text-center Un dato es una representación simbólica de un atributo o característica de un elemento o evento. Por sí solo carece de significado. Los datos pueden ser de diferentes tipos: números, letras, objetos, figuras, entre otros.
 
           
           .tarjeta.color-acento-botones.p-4(x="51.5%" y="13.5%" numero="" style='border-radius: 10px; background-color: #FFE8C8')
-            h5.mb-3.text-center Información:
+            h5.mb-3.text-center Información
             p.mb-0.text-center La información es un dato o conjunto de datos con un contexto que les da significado. Son datos que han sido organizados, etiquetados y puestos en contexto.
 
           
           .tarjeta.color-acento-botones.p-4(x="83%" y="85%" numero="" style='border-radius: 10px; background-color: #FFE8C8')
-            h5.mb-3.text-center Conocimiento:
+            h5.mb-3.text-center Conocimiento
             p.mb-0.text-center El conocimiento es la interpretación de la información. En el conocimiento se involucran la información, la reflexión, la experiencia para proporcionar valor.
 
     .row.justify-content-center.pt-2
       .col-12.pb-3.pt-5
         b Ejemplo: 
-        span Dato Vs Información Vs Conocimiento
+        span dato versus conocimiento    
       .tabla-b.color-secundario.col-10.pt-3
           tbody
             tr
               th Dato
               td 21
-              td Sin un contexto e información adicional carece de sentido
+              td Sin un contexto e información adicional carece de sentido.
             tr
               th Información
-              td Utilidad año 2021: 21%
-              td Al darle contexto como el nombre de la variable y tipo adquiere significado
+              td Utilidad año 2021: 21 %
+              td Al darle contexto como el nombre de la variable y tipo adquiere significado.
             tr
               th Conocimiento
-              td La empresa superó el año anterior el porcentaje de utilidad esperado
-              td Se demuestra la comprensión y utilización de la información
+              td La empresa superó el año anterior el porcentaje de utilidad esperado.
+              td Se demuestra la comprensión y utilización de la información.
 
     .row.justify-content-center.pt-5.ps-3.pe-3.pb-5
       .col-12.col-md-6.tarjeta.back-like.p-0
@@ -79,7 +78,7 @@
             img(src="@/assets/curso/temas/tema1/datos_estructurados.svg", alt="alt").img50
         .row.justify-content-center.p-0.pt-3  
           .col-5.pb-3
-            b.title-like Datos estructurados: 
+            b.title-like Datos estructurados 
         .row.justify-content-center.pb-3
           .col-10
             p.pb-3.font-white Se consideran datos estructurados cuando tienen una estructura bien definida, siguen un orden y son de fácil acceso y uso para los sistemas de información y las personas. 
@@ -90,15 +89,13 @@
             img(src="@/assets/curso/temas/tema1/dato_no_estructurados.svg", alt="alt").img50
         .row.justify-content-center.pt-3  
           .col-5.pb-3
-            b.title-like Datos no estructurados:
+            b.title-like Datos no estructurados
         .row.justify-content-center.pb-3
           .col-10
             p Este tipo de datos no tienen un modelo o estructura muy definida y pueden tener diferentes formatos como texto, imágenes, sonido, video lo que hace más difícil su procesamiento y análisis. 
             p.pt-3.pb-3 La mayor parte de la información relevante para la organización se puede clasificar como “no estructurada”. Por ejemplo: correos electrónicos, documentos de texto, imágenes de catálogo, audios, videos, comentarios en redes sociales.
-      Separador
 
-    #t_1_2.titulo-segundo.color-acento-contenido.pt-3.pb-3
-      h2 1.2   ¿Qué es la arquitectura de datos?
+    h3.pt-5 ¿Qué es la arquitectura de datos?
 
     .row.justify-content-center.pb-5  
       .col-10
@@ -111,32 +108,32 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 1
-                | Cómo va la organización a trabajar con los datos disponibles     
+                | Cómo va la organización a trabajar con los datos disponibles.     
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                | Cómo se van a almacenar, procesar y presentar estos datos teniendo en cuenta los recursos y necesidades de los interesados
+                | Cómo se van a almacenar, procesar y presentar estos datos teniendo en cuenta los recursos y necesidades de los interesados.
               li 
                 .lista-ol--cuadro__vineta
                   span 3
-                | Cómo se van a integrar modelos, políticas y reglas disponibles   
+                | Cómo se van a integrar modelos, políticas y reglas disponibles.   
               li 
                 .lista-ol--cuadro__vineta
                   span 4
-                | Su principal objetivo es el de modelar el sistema de datos de la organización, identificando:     
-            .row  
-              li 
-                .lista-ol--cuadro__vineta
-                  span a
-                | Tipos de datos
-              li 
-                .lista-ol--cuadro__vineta
-                  span b
-                | Fuentes de datos
-              li 
-                .lista-ol--cuadro__vineta
-                  span c
-                | Las relaciones entre los datos y cómo estos interactúan
+                p.mb-0 Su principal objetivo es el de modelar el sistema de datos de la organización, identificando:     
+              ol.lista-ol--cuadro.ps-5             
+                li 
+                  .lista-ol--cuadro__vineta
+                    span a
+                  | Tipos de datos.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span b
+                  | Fuentes de datos.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span c
+                  | Las relaciones entre los datos y cómo estos interactúan.
 
         .row
           .col-10.col-md-4.tarjeta.clr-paleYellow.p-4
@@ -145,15 +142,15 @@
                 li 
                   .lista-ol--cuadro__vineta
                     span 1
-                  | Que se pueda sacar provecho a la cantidad de datos existentes
+                  | Que se pueda sacar provecho a la cantidad de datos existentes.
                 li 
                   .lista-ol--cuadro__vineta
                     span 2
-                  | Que los analistas realicen las actividades de procesamiento y análisis de una forma eficiente
+                  | Que los analistas realicen las actividades de procesamiento y análisis de una forma eficiente.
                 li 
                   .lista-ol--cuadro__vineta
                     span 3
-                  | Una ventaja competitiva en comparación con las empresa u organizaciones que no cuentan con arquitecturas de datos claras  
+                  | Una ventaja competitiva en comparación con las empresa u organizaciones que no cuentan con arquitecturas de datos claras.  
           .col-2
           .col-md-6
             .figure
@@ -166,8 +163,8 @@
         PasosA.color-acento-botones.mb-5(tipo="n")
           .row
             .col-md-6.mb-4.mb-md-0
-              h3 Integración de datos:     
-              p Se debe identificar las diversas fuentes de datos existentes en la organización y las relaciones entre los datos que ofrecen. Por medio del uso de interfaces de programación de aplicaciones (API: Application Programming Interface por sus siglas en inglés) se pueden brindar mecanismos que permitan la comunicación entre diferentes componentes el sistema de información.
+              h3 Integración de datos     
+              p Se deben identificar las diversas fuentes de datos existentes en la organización y las relaciones entre los datos que ofrecen. Por medio del uso de interfaces de programación de aplicaciones (API: Application Programming Interface por sus siglas en inglés), se pueden brindar mecanismos que permitan la comunicación entre diferentes componentes del sistema de información.
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema1/integracion.png', alt='integracion')
@@ -177,12 +174,12 @@
               figure
                 img(src='@/assets/curso/temas/tema1/seguridad.png', alt='seguridad')
             .col-md-6
-              h3 Seguridad:     
+              h3 Seguridad     
               p Se deben identificar las amenazas existentes que puedan afectar la calidad, disponibilidad o confidencialidad de la información y desarrollar herramientas que disminuyan los riesgos de estas amenazas.
 
           .row
             .col-md-6.mb-4.mb-md-0
-              h3 Escalabilidad:     
+              h3 Escalabilidad     
               p Los sistemas de información están en constante crecimiento. La arquitectura de datos definida debe estar preparada para el aumento en la cantidad de datos y en la capacidad de procesamiento. Las soluciones en la nube facilitan esta escalabilidad brindándole al usuario acceder a los recursos bajo demanda (en caso de necesitar más espacio o mayor capacidad de almacenamiento).
             .col-md-6
               figure
@@ -193,13 +190,10 @@
               figure
                 img(src='@/assets/curso/temas/tema1/adaptabilidad.png', alt='adaptabilidad')
             .col-md-6
-              h3 Adaptabilidad:     
-              p La arquitectura de datos debe ser flexible para ajustarse a las diferentes necesidades de la organización y para los diversos roles o tipos de usuario
+              h3 Adaptabilidad     
+              p La arquitectura de datos debe ser flexible para ajustarse a las diferentes necesidades de la organización y para los diversos roles o tipos de usuario.
     
-    Separador
-    
-    #t_1_3.titulo-segundo.color-acento-contenido.pt-3.pb-3
-      h2 1.3  Modelos, políticas y reglas
+    h3.pt-5 Modelos, políticas y reglas
     .row.mb-5
       .col-10.position-relative.pr-3
         .avatar
@@ -220,215 +214,192 @@
       .container.tarjeta.tarjeta--blanca
         TabsC.color-primario
           .py-3.py-md-4(titulo="DMBOOK")
-            .row
+            .row.justify-content-center
               .col-md-6
-                h4.pb3 DMBOK (Data Management Book of Knowledge):
+                h4.pb3 DMBOK (Data Management Book of Knowledge)
                 p.pb-2 Creado por la Asociación de profesionales en gerencia de datos (DAMA Internacional), presenta una visión estándar sobre las funciones de la gestión de datos incluyendo: terminología y definiciones, funciones, procesos y prácticas, roles y responsabilidades, métricas.
                 p.pb-2 Este marco de referencia propone las siguientes áreas de conocimiento: 
                 ul.ps-3.lista-ul
                   li 
                     i.fas.fa-check.txt--azul
-                    | Gobierno de datos
+                    | Gobierno de datos.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Arquitectura de datos
+                    | Arquitectura de datos.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Almacenamiento y operación de datos
+                    | Almacenamiento y operación de datos.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Seguridad de datos
+                    | Seguridad de datos.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Integración e interoperabilidad de datos
+                    | Integración e interoperabilidad de datos.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Documentación y contenido
+                    | Documentación y contenido.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Referencias y datos maestros
+                    | Referencias y datos maestros.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Bodega de datos e inteligencia de negocios
+                    | Bodega de datos e inteligencia de negocios.
                   li 
                     i.fas.fa-check.txt--azul
                     | Metadatos y calidad. 
                 p.pb-2 Además, define elementos de contexto soportados sobre tres pilares que son: personas, procesos y tecnologías.
-                b.tarjeta--azul.pb-2 Para profundizar más sobre el tema (DAMA Internacional, 2022)
-              .col-md-6.p-4
-                .titulo-sexto.color-acento-contenido.mb-2.pr-2
-                  h5 Figura 2.
-                  br
-                  em Data Management Book of Knowledge 
-                figure
-                  img(src='@/assets/curso/temas/tema1/dmbok.png', alt='dmbok').img100
-                p.tarjeta--azul.pb-2 Nota: Adaptada de Data Management Book of Knowledge. DAMA Internacional (2022). 
+
+              .col-md-6
+                img.img-a.img-t(src='@/assets/curso/temas/tema1/dmbok.png', alt='dmbok')
+                figcaption Nota: Adaptada de Data Management Book of Knowledge. DAMA Internacional (2022). 
 
           .py-3.py-md-4(titulo="DGF")
-            .row
+            .row.justify-content-center
               .col-md-6
-                h4.pb3 DGF (Data Governance Framework):
+                h4.pb3 DGF (Data Governance Framework)
                 p.pb-2 Provee una estructura lógica para clasificar y ejecutar actividades para la toma de decisiones involucrando estructuras, personas y procesos de la organización. 
-                p.pb-2 El marco de referencia DGF está formado por 10 componentes universales. Independiente del enfoque de la organización se incluirán estos 10 componentes en el modelo, aunque el énfasis de cada uno varía según los requerimientos de la organización. Estos componentes son: 
+                p.pb-2 El marco de referencia DGF está formado por 10 componentes universales. Independientemente del enfoque de la organización, se incluirán los siguientes 10 componentes en el modelo, aunque el énfasis de cada uno varía según los requerimientos de la organización. Estos componentes son:  
                 ul.ps-3.lista-ul
                   li 
                     i.fas.fa-check.txt--azul
-                    | Misión y visión
+                    | Misión y visión.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Objetivos y métricas
+                    | Objetivos y métricas.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Reglas (definiciones y políticas)
+                    | Reglas (definiciones y políticas).
                   li 
                     i.fas.fa-check.txt--azul
-                    | Derechos de decisión
+                    | Derechos de decisión.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Responsabilidades
+                    | Responsabilidades.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Controles
+                    | Controles.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Stakeholders
+                    | Stakeholders.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Oficina de gobierno de datos
+                    | Oficina de gobierno de datos.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Administradores de datos y,
+                    | Administradores de datos. 
                   li 
                     i.fas.fa-check.txt--azul
-                    | Procesos de gobernanza     
-                b.tarjeta--azul.pb-2 Para profundizar más sobre el tema lea DGF (Data Governance Framework) que encuentras en el material complemento
-              .col-md-6.pb-4
-                .titulo-sexto.color-acento-contenido.mb-2.pr-2
-                  h5 Figura 3.
-                  br
-                  em Marco de gobierno de datos de la DGI
-                figure
-                  img(src='@/assets/curso/temas/tema1/dgf.svg', alt='dgf').img100
-                p.tarjeta--azul.pb-2.pt-3 Nota: Adaptada del Marco de gobierno de datos de la DGI. Data Governance Institute, (s.f.).  
+
+              .col-md-6
+                img.img-a.img-t(src='@/assets/curso/temas/tema1/dgf.svg', alt='dgf') 
+                figcaption Nota: adaptada del Marco de gobierno de datos de la DGI (s.f.). 
 
           .py-3.py-md-4(titulo="TOGAF")
-            .row
+            .row.justify-content-center
               .col-md-6
-                h4.pb3 TOGAF (The Open Group Architecture Framework):
+                h4.pb3 TOGAF (The Open Group Architecture Framework)
                 p.pb-2 Define el proceso de creación de la arquitectura de datos como parte integral de la arquitectura de la organización.
-                p.pb-2 Está sustentado bajo el modelo TAFIM (Technical Architecture Framework for Information Management) desarrollado por el Ministerio de Defensa de EEUU. y a la fecha es administrado por The Open Group en su versión 9.2.
-                p.pb-2 Este modelo de referencia utiliza un modelo iterativo de buenas prácticas conocido como Método de desarrollo de arquitectura (Architecture Development Method – ADM en inglés) con las siguientes fases: 
-                ul.ps-3.lista-ul
+                p.pb-2 Está sustentado bajo el modelo TAFIM (Technical Architecture Framework for Information Management), desarrollado por el Ministerio de Defensa de EE.UU. y a la fecha es administrado por The Open Group en su versión 9.2.
+                p.pb-2 Este modelo de referencia utiliza un modelo iterativo de buenas prácticas conocido como “Método de desarrollo de arquitectura” (Architecture Development Method – ADM en inglés), con las siguientes fases: 
+                ul.lista-ul
                   li 
                     i.fas.fa-check.txt--azul
-                    | Fase preliminar
+                    | Fase preliminar.
                   li 
                     i.fas.fa-check.txt--azul
                     | Gestión de requerimientos:
-                ol.lista-ol--cuadro
+                ol.lista-ol--cuadro.ps-5
                   li 
                     .lista-ol--cuadro__vineta
                       span a
-                    | Visión de arquitectura
-                ol.lista-ol--cuadro
+                    | Visión de arquitectura.
+
                   li 
                     .lista-ol--cuadro__vineta
                       span b
-                    | Arquitectura de negocio
-                ol.lista-ol--cuadro
+                    | Arquitectura de negocio.
+
                   li 
                     .lista-ol--cuadro__vineta
                       span c
-                    | Arquitectura de sistemas de información
-                ol.lista-ol--cuadro
+                    | Arquitectura de sistemas de información.
+
                   li 
                     .lista-ol--cuadro__vineta
                       span d
-                    | Arquitectura tecnológica
-                ol.lista-ol--cuadro
+                    | Arquitectura tecnológica.
+
                   li 
                     .lista-ol--cuadro__vineta
                       span e
-                    | Oportunidades y soluciones
-                ol.lista-ol--cuadro
+                    | Oportunidades y soluciones.
+
                   li 
                     .lista-ol--cuadro__vineta
                       span f
-                    | Plan de migración y,
-                ol.lista-ol--cuadro
+                    | Plan de migración. 
+
                   li 
                     .lista-ol--cuadro__vineta
                       span g
-                    | Gestión de cambio de la arquitectura     
-                b.tarjeta--azul.pb-2 Para profundizar más sobre el tema (The Open Group, 2018)
-              .col-md-6.pb-4
-                .titulo-sexto.color-acento-contenido.mb-2.pr-2
-                  h5 Figura 4.
-                  br
-                  em El estándar TOGAF
-                .col-10.figure
-                  img(src='@/assets/curso/temas/tema1/togaf.png', alt='togaf').img100
-                p.tarjeta--azul.pb-2.pt-3 Nota: Adaptada de El estándar TOGAF. The Open Group (2018).   
-          .py-3.py-md-4(titulo="COBIT")
-            .row
+                    | Gestión de cambio de la arquitectura.     
               .col-md-6
-                h4.pb3 COBIT (Control Objectives for Information and related Tecnology):
+                img.img-a.img-t(src='@/assets/curso/temas/tema1/togaf.png', alt='togaf') 
+                figcaption Nota: adaptada de El estándar TOGAF (2018).   
+          .py-3.py-md-4(titulo="COBIT")
+            .row.justify-content-center
+              .col-md-6
+                h4.pb3 COBIT (Control Objectives for Information and related Tecnology)
                 p.pb-2 Es empleado como modelo para auditar la gestión y control de sistemas de información. Este marco de gestión de tecnologías de información, desarrollado por ISACA en 1996, permite a las organizaciones desarrollar, organizar e implementar sus estrategias en torno a la gestión de la información y la gobernanza.
                 p.pb-2 Sus cinco componentes principales son: 
                 ol.lista-ol--cuadro
                   li 
                     .lista-ol--cuadro__vineta
                       span 1
-                    | Marco
-                ol.lista-ol--cuadro
+                    | Marco.
+
                   li 
                     .lista-ol--cuadro__vineta
                       span 2
-                    | Descripción de los procesos
-                ol.lista-ol--cuadro
+                    | Descripción de los procesos.
+
                   li 
                     .lista-ol--cuadro__vineta
                       span 3
-                    | Objetivos de control
-                ol.lista-ol--cuadro
+                    | Objetivos de control.
+
                   li 
                     .lista-ol--cuadro__vineta
                       span 4
-                    | Directrices de gestión y,
-                ol.lista-ol--cuadro
+                    | Directrices de gestión. 
+
                   li 
                     .lista-ol--cuadro__vineta
                       span 5
-                    | Modelos de madurez     
+                    | Modelos de madurez.     
                 p.pt-2 Tiene como principios clave:
                 ul.ps-3.lista-ul
                   li 
                     i.fas.fa-angle-right.txt--orange
-                    | Cumplir con las necesidades clave de los interesados     
+                    | Cumplir con las necesidades clave de los interesados.     
                   li 
                     i.fas.fa-angle-right.txt--orange
-                    | Cubrir la empresa de extremo a extremo
+                    | Cubrir la empresa de extremo a extremo.
                   li 
                     i.fas.fa-angle-right.txt--orange
-                    | Integrar múltiples marcos bajo un paraguas     
+                    | Integrar múltiples marcos bajo un paraguas.     
                   li 
                     i.fas.fa-angle-right.txt--orange
-                    | Fomentar un enfoque holístico para los negocios     
+                    | Fomentar un enfoque holístico para los negocios.     
                   li 
                     i.fas.fa-angle-right.txt--orange
-                    | Alejar el gobierno de la administración     
-                b.tarjeta--azul.pb-2 Para profundizar más sobre el tema lea COBIT (Control Objetives for....) que encuentras en el material complemento
+                    | Alejar el gobierno de la administración.     
+
               .col-md-6.pb-4
-                .titulo-sexto.color-acento-contenido.mb-2.pr-2
-                  h5 Figura 5.
-                  br
-                  em Principios de COBIT 5
-                figure
-                  img(src='@/assets/curso/temas/tema1/cobit.png', alt='cobit').img100
-                p.tarjeta--azul.pb-2.pt-3 Nota: Adaptada de Principios de COBIT 5. Jiménez (2018).  Geniusitt.   
-      Separador
-    #t_1_4.titulo-segundo.color-acento-contenido.pt-3.pb-3
-      h2 1.4  Ciclo de desarrollo de la arquitectura de datos
+                img.img-a.img-t(src='@/assets/curso/temas/tema1/cobit.png', alt='cobit').img100
+                figcaption Nota: adaptada de Jiménez (2018).  Geniusitt. 
+
+    h3.pt-5 Ciclo de desarrollo de la arquitectura de datos
 
     .row.justify-content-center.pb-5
       .col-10
@@ -444,50 +415,46 @@
     .row.justify-content-center.pt-5.pb-5
       .col-10
         .row.align-middle
-          .titulo-sexto.color-acento-contenido.mb-2.pr-2
-            h5 Figura 6.
-            br
-            em Etapas de la arquitectura de datos
           .col-12.pb-3
             figure
               img(src="@/assets/curso/temas/tema1/etapas.png", alt="etapas").img50
 
     .tarjeta.tarjeta--gris.p-4
-      LineaTiempoC.color-acento-contenido(text-small)
+      LineaTiempoC.color-acento-contenido
         .row(titulo="Requerimientos")
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema1/requerimientos.png', alt='requerimientos')
+              img(src='@/assets/curso/temas/tema1/requerimientos.png', alt='Requerimientos')
           .col-md-8.mb-4.mb-md-0
             b Requerimientos
             p.pt-3 Se enfoca en la captura, documentación y priorización de requisitos que influyan en la arquitectura de datos. 
             p.pt-3 En esta etapa es importante:
             ol.lista-ol--cuadro
-                  li 
-                    .lista-ol--cuadro__vineta
-                      span 1
-                    | Conocer las expectativas de los stakeholders (personas interesadas y/o impactadas por el proceso)
-            ol.lista-ol--cuadro
-                  li 
-                    .lista-ol--cuadro__vineta
-                      span 2
-                    | Los objetivos del sistema a desarrollar (qué información o insights se podrán obtener con la información procesada y analizada)
-            ol.lista-ol--cuadro
-                  li 
-                    .lista-ol--cuadro__vineta
-                      span 3
-                    | Los flujos de trabajo que describen cómo se mueve la información a través de los diferentes procesos de la organización y,
-            ol.lista-ol--cuadro
-                  li 
-                    .lista-ol--cuadro__vineta
-                      span 4
-                    | Las condiciones o restricciones existentes en la organización para el uso y difusión de la información      
-            ol.lista-ol--cuadro
-                  li 
-                    .lista-ol--cuadro__vineta
-                      span 5
-                    | Aquí también se analizarán los orígenes de los datos (fuentes de información), su tipo (estructurados o no estructurados), dimensiones y periodicidad. 
-            p.tarjeta--azul.pb-2.pt-3 Esta etapa debe ser documentada de forma clara y detallada para no omitir detalles que puedan impactar negativamente el diseño y desarrollo del sistema de información.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 1
+                p.mb-0 Conocer las expectativas de los <i>stakeholders</i> (personas interesadas y/o impactadas por el proceso).
+
+              li 
+                .lista-ol--cuadro__vineta
+                  span 2
+                p.mb-0 Los objetivos del sistema a desarrollar (qué información o <i>insights</i> se podrán obtener con la información procesada y analizada).
+
+              li 
+                .lista-ol--cuadro__vineta
+                  span 3
+                p.mb-0 Los flujos de trabajo que describen cómo se mueve la información a través de los diferentes procesos de la organización.
+
+              li 
+                .lista-ol--cuadro__vineta
+                  span 4
+                p.mb-0 Las condiciones o restricciones existentes en la organización para el uso y difusión de la información.      
+
+              li 
+                .lista-ol--cuadro__vineta
+                  span 5
+                p.mb-0 Aquí también se analizarán los orígenes de los datos (fuentes de información), su tipo (estructurados o no estructurados), dimensiones y periodicidad. 
+            p.tarjeta--azul.p-4 Esta etapa debe ser documentada de forma clara y detallada para no omitir detalles que puedan impactar negativamente el diseño y desarrollo del sistema de información.
         .row(titulo="Diseño")
           .col-md-7
             figure
@@ -499,21 +466,21 @@
         .row(titulo="Documentación")
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema1/documentacion.png', alt='documentacion')
+              img(src='@/assets/curso/temas/tema1/documentacion.png', alt='Documentación')
           .col-md-5.mb-4.mb-md-0
             b Documentación
-            p.pt-3 Se documenta el diseño realizado utilizando representaciones ya establecidas y estandarizadas para facilitar la comunicación del diseño a los demás actores del proceso. 
+            p.pt-3 Se documenta el diseño realizado, utilizando representaciones ya establecidas y estandarizadas para facilitar la comunicación del diseño a los demás actores del proceso.  
             p.pt-3 Algunas herramientas que permiten plasmar el diseño realizado son: 
             ul.ps-3.lista-ul
                   li 
                     i.fas.fa-check.txt--azul
-                    | Mapas de procesos
+                    | Mapas de procesos.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Diagramas de flujo
+                    | Diagramas de flujo.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Diagramas de entidad - relación     
+                    | Diagramas de entidad - relación.   
         .row(titulo="Evaluación")
           .col-md-7
             figure

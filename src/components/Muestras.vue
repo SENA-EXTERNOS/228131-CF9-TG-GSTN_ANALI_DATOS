@@ -626,7 +626,7 @@ div
   figure
     .video
       iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    figcaption Video: Leyenda del video
+    : Leyenda del video
 
   Separador
 
@@ -1741,44 +1741,44 @@ div
   .row
     .col-lg-6
       a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-        .anexo__icono
+        .anexo__icono1
           img(src="@/assets/template/icono-pdf.svg")
         .anexo__texto
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
         
       a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-        .anexo__icono
+        .anexo__icono1
           img(src="@/assets/template/icono-doc.svg")
         .anexo__texto
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
         
       a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-        .anexo__icono
+        .anexo__icono1
           img(src="@/assets/template/icono-xls.svg")
         .anexo__texto
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
         
       a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
-        .anexo__icono
+        .anexo__icono1
           img(src="@/assets/template/icono-link.svg")
         .anexo__texto
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
         
     .col-lg-6
       a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-        .anexo__icono
+        .anexo__icono1
           img(src="@/assets/template/icono-zip.svg")
         .anexo__texto
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
         
       a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-        .anexo__icono
+        .anexo__icono1
           img(src="@/assets/template/icono-ppt.svg")
         .anexo__texto
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
         
       a.anexo(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-        .anexo__icono
+        .anexo__icono1
           img(src="@/assets/template/icono-xml.svg")
         .anexo__texto
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
