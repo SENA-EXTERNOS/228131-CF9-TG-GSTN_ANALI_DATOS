@@ -57,8 +57,8 @@
                 i.fas.fa-check.txt--azul
                 | Requerimientos de seguridad e integridad de datos.
 
-          .tarjeta.tarjeta--azul.clr--gris.p-4(titulo="Modelo Lógico")    
-            h4 Modelo Lógico
+          .tarjeta.tarjeta--azul.clr--gris.p-4(titulo="Modelo lógico")    
+            h4 Modelo lógico
             p.pb-2 Este modelo describe los datos con más detalles que el modelo conceptual, pero sin incluir especificaciones propias de la base de datos. Esto con el fin de poder aplicar el modelo a diferentes tecnologías. En este modelo se describen los atributos de los elementos modelados en el nivel de modelo conceptual.
             p En este modelo se pueden encontrar:
             ul.lista-ul.mb-4
@@ -147,7 +147,7 @@
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
             h5 Modelo entidad - relación (ER) 
-            p.pb-2.pe-5 Este modelo utiliza diagramas para representar las relaciones entre las entidades (personas, objetos, conceptos) de una base de datos. Existen diferentes herramientas para la realización de este tipo de modelos entre ellas:<em> GitMind, Lucidchart y Visual Paradigm.</em>
+            p.pb-2.pe-5 Este modelo utiliza diagramas para representar las relaciones entre las entidades (personas, objetos, conceptos) de una base de datos. Existen diferentes herramientas para la realización de este tipo de modelos entre ellas: GitMind, Lucidchart y Visual Paradigm. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/tipo_modelo_datos_3.svg')

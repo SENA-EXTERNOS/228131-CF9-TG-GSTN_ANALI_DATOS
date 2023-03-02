@@ -18,7 +18,7 @@
             i.fas.fa-quote-left
             i.fas.fa-quote-right
             p.em.text-center.text-regular.bloque-texto-f__texto Al almacenar los datos en un SGBD, en vez de en un conjunto de archivos del sistema operativo, se pueden utilizar las características del SGBD para gestionar los datos de un modo robusto y eficiente. A medida que crecen el volumen de los datos y el número de usuarios el apoyo de los SGBD se vuelve indispensable. (Ramakrishnan, 2011).
-            p.pb-4.text-center.text-regular.bloque-texto-f__texto <b>(Ramakrishnan, 2011).</b> 
+
   
     h5 Los SGBD deben mantener cuatro propiedades en las transacciones para garantizar que los datos se procesen de manera fiable.
 
@@ -75,7 +75,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/isolation.png', alt='isolation')
 
-          h3.text-center Isolation (Aislamiento) 
+          h3.text-center <i>Isolation</i> (Aislamiento) 
           p.text-center.text-small Un cambio no debe afectar a otros cambios que se estén realizando sobre la base de datos de manera concurrente.
 
       .col-sm-6.col-lg-3
@@ -158,12 +158,6 @@
                 th.p-3.max-width-80
                   figure.p-5
                     img(src='@/assets/curso/temas/tema3/tabla_7.png', alt='alt')
-                th.text-center MySQL
-                th.text-center Relacional
-              tr
-                th.p-3.max-width-80
-                  figure.p-5
-                    img(src='@/assets/curso/temas/tema3/tabla_8.png', alt='alt')
                 th.text-center MongoDB
                 th.text-center Orientado a documentos
               tr
@@ -250,7 +244,7 @@
                 h4 Seguridad e integridad de los datos    
                 p.pt-3 La base de datos debe garantizar la seguridad de la información evitando el acceso a personas no autorizadas. Además de cifrar la información, deberá tener un esquema de permisos de diferentes niveles para acceder a ésta. También se deben garantizar la coherencia e integridad de la información almacenada por medio del cumplimiento de las cuatro propiedades de las transacciones (ACID).
               .tarjeta.tarjeta--azul.clr--azul.p-4(titulo="Recuperación")
-                h4 Restauración de los datos   
+                h4 Recuperación y restauración de los datos
                 p.pt-3 La base de datos debe brindar herramientas para el respaldo y recuperación de la información en caso de posibles fallos. 
 
 

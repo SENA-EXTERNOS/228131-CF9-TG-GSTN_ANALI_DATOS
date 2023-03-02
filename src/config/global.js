@@ -100,48 +100,34 @@ export default {
     {
       tema: 'Introducción a la arquitectura de datos',
       referencia:
-        'DAMA Internacional (2022). <em>Publicaciones DMBOK - Data Management Body of Knowledge.</em> DAMA Internacional.',
-      tipo: 'Sitio Web',
-      link: 'https://www.dama.org/cpages/body-of-knowledge',
-    },
-    {
-      tema: 'Introducción a la arquitectura de datos',
-      referencia:
-        'GitMind. (sf.). <em>Mejor programa para hacer mapa mental y conceptual.</em>GitMind.',
+        'GitMind. (s.f.). <i>Mejor programa para hacer mapa mental y conceptual</i>. GitMind.',
       tipo: 'Sitio Web',
       link: 'https://gitmind.com/es/',
     },
     {
       tema: 'Introducción a la arquitectura de datos',
       referencia:
-        'ISACA (2022). <em>COBIT Control objectives for Information Technologies.</em> ISACA Resources.',
+        'ISACA. (2022). <i>COBIT Control objectives for Information Technologies</i>. ISACA Resources.',
       tipo: 'Sitio Web',
       link: 'https://www.isaca.org/resources/cobit',
     },
     {
       tema: 'Introducción a la arquitectura de datos',
       referencia:
-        'Lucidchart. (sf.) <em>Intelligent diagramming.</em> Lucidchart.',
-      tipo: 'Sitio Web',
-      link: 'https://www.lucidchart.com/pages/',
-    },
-    {
-      tema: 'Introducción a la arquitectura de datos',
-      referencia:
-        'The Data Governance Institute (2022). <em>Data Governance Framework & Components. The Data Governance Institute</em>',
+        'The Data Governance Institute. (2022). <i>Data Governance Framework & Components.</i>',
       tipo: 'Sitio Web',
       link: 'https://datagovernance.com/data-governance-framework-components/',
     },
     {
       tema: 'Introducción a la arquitectura de datos',
-      referencia: 'The Open Group (2022). <em>TOGAF</em>. The Open Group',
+      referencia: 'The Open Group. (2022). <i>TOGAF. The Open Group.</i>',
       tipo: 'Sitio Web',
       link: 'https://www.opengroup.org/togaf',
     },
     {
       tema: 'Introducción a la arquitectura de datos',
       referencia:
-        'Visual Paradigm (sf). <em>Design database with professional ERD Software.</em>',
+        'Visual Paradigm. (s.f.). <i>Design database with professional ERD Software.</i> ',
       tipo: 'Sitio Web',
       link:
         'https://www.visual-paradigm.com/features/database-design-with-erd-tools/',
@@ -243,7 +229,7 @@ export default {
     },
     {
       referencia:
-        'Joyanes, L. (2015). <i>Sistemas de información en la empresa</i>. Alfaomega',
+        'Joyanes, L. (2015). <i>Sistemas de información en la empresa</i>. Alfaomega.',
     },
     {
       referencia:
@@ -251,13 +237,13 @@ export default {
     },
     {
       referencia:
-        'Orbegozo Arana, Borja. (2019). <i>Gestión de bases de datos con SQL, MySQL y Access: curso práctico</i>. Alfaomega.',
+        'Orbegozo Arana, B. (2019). <i>Gestión de bases de datos con SQL, MySQL y Access: curso práctico</i>. Alfaomega.',
     },
     {
       referencia:
-        'Piattini, M., Ruiz, F. (2020). <i>Gobierno      y      gestión de las      tecnologías y los      sistemas de      información</i>. Ra-Ma.',
+        'Piattini, M. y Ruiz, F. (2020). <i>Gobierno y gestión de las tecnologías y los sistemas de información</i>. Ra-Ma.',
       link:
-        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/gobierno-y-gestion-de-las-tecnologias-y-los-sistemas-de-informacion-1591724977',
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/gobierno-y-gestion-de-las-tecnologias-y-los-sistemas-de-informacion-1591724977 ',
     },
     {
       referencia:

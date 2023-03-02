@@ -112,7 +112,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                | Cómo se van a almacenar, procesar y presentar estos datos teniendo en cuenta los recursos y necesidades de los interesados.
+                | Cómo se van a almacenar, procesar y presentar estos datos, teniendo en cuenta los recursos y necesidades de los interesados.
               li 
                 .lista-ol--cuadro__vineta
                   span 3
@@ -251,7 +251,7 @@
 
               .col-md-6
                 img.img-a.img-t(src='@/assets/curso/temas/tema1/dmbok.png', alt='dmbok')
-                figcaption Nota: Adaptada de Data Management Book of Knowledge. DAMA Internacional (2022). 
+                figcaption Nota: adaptada de Data Management Book of Knowledge. DAMA Internacional (2022). 
 
           .py-3.py-md-4(titulo="DGF")
             .row.justify-content-center
@@ -280,7 +280,7 @@
                     | Controles.
                   li 
                     i.fas.fa-check.txt--azul
-                    | Stakeholders.
+                    p.mb-0 #[i Stakeholders].
                   li 
                     i.fas.fa-check.txt--azul
                     | Oficina de gobierno de datos.
@@ -289,6 +289,7 @@
                     | Administradores de datos. 
                   li 
                     i.fas.fa-check.txt--azul
+                    p.mb-0 Procesos de gobernanza.
 
               .col-md-6
                 img.img-a.img-t(src='@/assets/curso/temas/tema1/dgf.svg', alt='dgf') 
@@ -410,7 +411,7 @@
                 img(src="@/assets/curso/temas/tema1/ciclos.png", alt="ciclos").img150
           .col-md-8.col-lg-8.mt-4
               p.pt-2 El proceso de arquitectura de datos se debe desarrollar durante las fases iniciales de diseño y planificación del sistema de información, con el fin de establecer de manera oportuna y clara cómo se procesarán, utilizarán y almacenarán los datos. De la correcta realización de esta actividad dependerá en gran parte el éxito o el fracaso del sistema a implementar. Un sistema de información sin claridad en el origen y tipo de datos que utiliza o sin conocimiento de las políticas de uso de la información no será de utilidad para la organización.
-    b.pt-3 Este proceso está dividido en cuatro etapas, similares a las etapas de desarrollo de arquitectura de software, pero enfocadas en los datos:
+    b.pt-3 Este proceso está dividido en cuatro etapas, similares a las etapas de desarrollo de arquitectura de <i>software</i>, pero enfocadas en los datos:
 
     .row.justify-content-center.pt-5.pb-5
       .col-10

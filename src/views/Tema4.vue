@@ -119,7 +119,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema4/algebra_relacional_3.png', alt='alt')
           
-    h5.pb-5 En la siguiente tabla, se puede apreciar la equivalencia entre nomenclatura de álgebra relacional y SQL
+    h5.pb-5 En la siguiente tabla, se puede apreciar la equivalencia entre nomenclatura de álgebra relacional y SQL:
     .row
       .col-12
         .tabla-b.color-acento-contenido
@@ -154,7 +154,7 @@
               
     h3.pt-5 Sintaxis SQL
       
-    p SQL es el lenguaje estándar de consultas a las bases de datos. Estas consultas permiten almacenar, manipular y recuperar datos de BD relacionales. Al ser SQL un lenguaje estandarizado permite desplegar implementaciones de este mismo lenguaje, en diferentes sistemas con cambios mínimos. (Orbegozo, 2019).
+    p SQL es el lenguaje estándar de consultas a las bases de datos. Estas consultas permiten almacenar, manipular y recuperar datos de BD relacionales. Al ser SQL un lenguaje estandarizado permite desplegar implementaciones de este mismo lenguaje, en diferentes sistemas con cambios mínimos. (Orbegozo, 2019)
     
     h5.pb-2 Las sentencias SQL se pueden agrupar por funcionalidades:
 
@@ -165,7 +165,7 @@
           
     p.pb-4 Las sentencias en SQL no son sensibles a mayúsculas y minúsculas, pero se recomienda usar estos comandos en mayúsculas sostenidas para diferenciarlos de los nombres de tablas y columnas.
 
-    p.pb-4 <b>Ejemplo:</b> <em>CREATE DATATABASE</em> nombrebasedatos;
+    p.pb-4 <b>Ejemplo:</b> CREATE DATATABASE nombrebasedatos;
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -178,7 +178,7 @@
           .py-3.py-md-4(titulo="Consultas y operaciones básicas con SQL")
             .row
               .col-md-8
-                h4.pb-3 Consultas y operaciones básicas con SQL:
+                h4.pb-3 Consultas y operaciones básicas con SQL
                 
                 ul.ps-3.lista-ul
                   li 
@@ -186,7 +186,7 @@
                     | Traer TODAS las columnas de una tabla:
 
                 .crd.tarjeta--azul
-                  p.ms-5 <em>SELECT * FROM tabla;</em>
+                  p.ms-5 SELECT * FROM tabla; 
                 
                 ul.ps-3.lista-ul  
                   li 
@@ -194,7 +194,7 @@
                     | Traer dos o más columnas de una tabla (los nombres de las atributos o columnas se separa con comas):
                 
                 .crd.tarjeta--azul
-                  p.ms-5 <em>SELECT atributo1, atributo2 FROM tabla;</em>
+                  p.ms-5 SELECT atributo1, atributo2 FROM tabla; 
 
                 ul.ps-3.lista-ul
                   li 
@@ -202,7 +202,7 @@
                     | Traer dos columnas de la base de datos y ordenar por una de ellas de forma descendente (Por defecto el comando GROUP BY ordena de forma ascendente):
 
                 .crd.tarjeta--azul
-                  p.ms-5 <em>SELECT atributo1, atributo2 FROM tabla ORDER BY atributo2 DESC;</em>
+                  p.ms-5  SELECT atributo1, atributo2 FROM tabla ORDER BY atributo2 DESC; 
 
                 ul.ps-3.lista-ul
                   li 
@@ -210,7 +210,7 @@
                     | ALIAS (AS): Permiten renombrar una columna o una tabla.
 
                 .crd.tarjeta--azul
-                  p.ms-5 <em>SELECT atributo1 AS nuevonombre FROM tabla;</em>
+                  p.ms-5  SELECT atributo1 AS nuevonombre FROM tabla; 
 
                 ul.ps-3.lista-ul
                   li 
@@ -218,8 +218,8 @@
                     | Filtros: Se pueden usar filtros en las consultas para traer solo los registros que cumplen con estos:
 
                 .crd.tarjeta--azul
-                  p.ms-5 <em>SELECT nombre FROM estudiante WHERE edad > 10;</em>
-                  p.ms-5 <em>SELECT nombre FROM estudiante WHERE edad > 10 AND ciudad = “Cali”;</em>
+                  p.ms-5 SELECT nombre FROM estudiante WHERE edad > 10; 
+                  p.ms-5 SELECT nombre FROM estudiante WHERE edad > 10 AND ciudad = “Cali”; 
 
               .col-md-4.p-4
                 figure
@@ -228,7 +228,7 @@
           .py-3.py-md-4(titulo="Funciones de agregación:")
             .row
               .col-md-6
-                h4.pb-3 Consultas y operaciones básicas con SQL:
+                h4.pb-3 Consultas y operaciones básicas con SQL
                 
                 ul.ps-3.lista-ul
                   li 
@@ -236,7 +236,7 @@
                     | AVG (promedio de los valores).
 
                 .crd.tarjeta--azul
-                  p.ms-5 <em>SELECT AVG (salario) FROM nomina</em>.
+                  p.ms-5 SELECT AVG (salario) FROM nomina.
                 
                 ul.ps-3.lista-ul  
                   li 
@@ -244,7 +244,7 @@
                     | COUNT (contar elementos)
                 
                 .crd.tarjeta--azul
-                  p.ms-5 <em>SELECT COUNT (salario) FROM nomina</em>.
+                  p.ms-5 SELECT COUNT (salario) FROM nomina.
 
                 ul.ps-3.lista-ul
                   li 
@@ -252,7 +252,7 @@
                     | MAX (valor máximo)
 
                 .crd.tarjeta--azul
-                  p.ms-5 <em>SELECT MAX (salario) FROM nomina</em>.
+                  p.ms-5 SELECT MAX (salario) FROM nomina.
 
                 ul.ps-3.lista-ul
                   li 
@@ -260,7 +260,7 @@
                     | MIN (valor mínimo)
 
                 .crd.tarjeta--azul
-                  p.ms-5 <em>SELECT MIN (salario) FROM nomina</em>.
+                  p.ms-5 SELECT MIN (salario) FROM nomina.
 
                 ul.ps-3.lista-ul
                   li 
@@ -268,7 +268,7 @@
                     | SUM (sumar valores)
 
                 .crd.tarjeta--azul
-                  p.ms-5 <em>SELECT SUM (salario) FROM nomina</em>.
+                  p.ms-5 SELECT SUM (salario) FROM nomina.
                 
               .col-md-6.pb-4
                 figure.ms-3.mt-5
@@ -311,9 +311,9 @@
           p END
 
     p.pt-4.pb-5 Los disparadores son un tipo de procedimiento almacenado que se invoca o ejecuta automáticamente en respuesta a una modificación concreta en la base de datos. Este tipo de procedimientos están compuestos de tres partes:
-    p <em>Evento: </em>modificación en la BD que activa el procedimiento.
-    p <em>Condición: </em>consulta o verificación que se ejecuta al activar el disparador.
-    p.pb-4 <em>Acción: </em>comandos que se ejecutan al activar el procedimiento y verificar que la condición se cumple.
+    p Evento: modificación en la BD que activa el procedimiento.
+    p Condición: consulta o verificación que se ejecuta al activar el disparador.
+    p.pb-4 Acción: comandos que se ejecutan al activar el procedimiento y verificar que la condición se cumple.
     
     .crd.back-example-yellow-2
       .row.ms-3.mt-3.mb-3.pt-3
@@ -328,7 +328,6 @@
           p.ps-5 cuenta = cuenta + 1;
           p.ps-3 END
 
-    h3.pt-4 Video temático 
 
     p.pb-4 En el siguiente video, podrá aprender más sobre la creación de Bases de datos con SQL y la realización de consultas:
 
