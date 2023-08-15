@@ -191,7 +191,7 @@
                 ul.ps-3.lista-ul  
                   li 
                     i.fas.fa-check.txt--azul
-                    | Traer dos o más columnas de una tabla (los nombres de las atributos o columnas se separa con comas):
+                    | Traer dos o más columnas de una tabla (los nombres de los atributos o columnas se separa con comas):
                 
                 .crd.tarjeta--azul
                   p.ms-5 SELECT atributo1, atributo2 FROM tabla; 

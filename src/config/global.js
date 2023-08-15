@@ -234,6 +234,8 @@ export default {
     {
       referencia:
         'Mannino, M. V. (2007). <i>Administración de bases de datos</i>. McGraw-Hill Irwin.',
+      link:
+        'https://profesorezequielruizgarcia.files.wordpress.com/2017/05/administracion-de-bases-de-datos-disec3b1o-y-desarrollo-de-aplicaciones-autor-michael-v-mannino-3ra-edicion-ac3b1o-2007-libro-de-apoyo.pdf',
     },
     {
       referencia:
