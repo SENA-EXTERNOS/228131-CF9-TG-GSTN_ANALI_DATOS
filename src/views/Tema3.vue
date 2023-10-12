@@ -95,7 +95,7 @@
     .row.justify-content-center.pt-3
       .col-10
         .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 1
+          h5 Figura 2
           br
           em Evolución de los sistemas manuales    
         .row.justify-content-center
@@ -218,7 +218,7 @@
     .row.justify-content-center.pt-5
       .col-10
         .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 2
+          h5 Figura 3
           br
           em Funciones del SGBD   
         .row.justify-content-center

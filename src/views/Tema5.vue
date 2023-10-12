@@ -112,7 +112,7 @@
     .row.justify-content-center
       .col-10.pt-5
         figure
-          img(src="@/assets/curso/temas/tema5/categorias.png").img100
+          img(src="@/assets/curso/temas/tema5/categorias-.png").img100
 
     .row.justify-content-center.pt-5
       .col-12

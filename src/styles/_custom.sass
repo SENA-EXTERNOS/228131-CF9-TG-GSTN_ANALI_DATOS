@@ -37,6 +37,7 @@
   bottom: 0
   right: 2rem
   z-index: 1
+  display: flex !important
 
 .crd--avatarHorizontal 
   position: relative
@@ -184,3 +185,13 @@
 .col-md-4-1 
     flex: 0 0 auto;
     width: 31.333333%;
+
+@media (max-width: 1200px)
+  .avatar-2 
+    display: none !important
+
+  .back-yellow,.back-yellow-2
+      width: 100%
+
+  .crd--avatarHorizontal 
+      padding-right: 3rem
