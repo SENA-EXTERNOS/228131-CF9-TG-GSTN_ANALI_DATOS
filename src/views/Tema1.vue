@@ -250,7 +250,7 @@
                 p.pb-2 Además, define elementos de contexto soportados sobre tres pilares que son: personas, procesos y tecnologías.
 
               .col-md-6
-                img.img-a.img-t(src='@/assets/curso/temas/tema1/dmbok.png', alt='dmbok')
+                img.img-a.img-t(src='@/assets/curso/temas/tema1/dmbok-.png', alt='dmbok')
                 figcaption Nota: adaptada de Data Management Book of Knowledge. DAMA Internacional (2022). 
 
           .py-3.py-md-4(titulo="DGF")
@@ -292,7 +292,7 @@
                     p.mb-0 Procesos de gobernanza.
 
               .col-md-6
-                img.img-a.img-t(src='@/assets/curso/temas/tema1/dgf.svg', alt='dgf') 
+                img.img-a.img-t(src='@/assets/curso/temas/tema1/dgf-.svg', alt='dgf') 
                 figcaption Nota: adaptada del Marco de gobierno de datos de la DGI (s.f.). 
 
           .py-3.py-md-4(titulo="TOGAF")
@@ -345,7 +345,7 @@
                       span g
                     | Gestión de cambio de la arquitectura.     
               .col-md-6
-                img.img-a.img-t(src='@/assets/curso/temas/tema1/togaf.png', alt='togaf') 
+                img.img-a.img-t(src='@/assets/curso/temas/tema1/togaf-.png', alt='togaf') 
                 figcaption Nota: adaptada de El estándar TOGAF (2018).   
           .py-3.py-md-4(titulo="COBIT")
             .row.justify-content-center
