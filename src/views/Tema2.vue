@@ -19,7 +19,7 @@
                 img(src="@/assets/curso/temas/tema2/modelo_datos.png").img100
 
     .row
-      .col-12.col-md-8.col-lg-8
+      .col-lg-8
         TabsA.color-acento-botones       
           .tarjeta.tarjeta--azul.clr--azul.p-4(titulo="Niveles de<br> abstracción")
             h4 Niveles de abstracción
@@ -87,7 +87,7 @@
                 i.fas.fa-check.txt--azul
                 | Información adicional del modelo.
       
-      .col-12.col-md-4.col-lg-4
+      .col-8.col-lg-4
         .tarjeta.h-100.d-flex.align-items-center
           figure
             img(src="@/assets/curso/temas/tema2/modelo_datos_2.png", alt="alt")
@@ -164,7 +164,7 @@
     
     .row.justify-content-center.pt-5.mb-5
       .col-lg-11.position-relative
-        .avatar-2
+        .avatar-2.px-4
           figure
             img(src="@/assets/curso/temas/tema2/avatar.png", alt="alt").img250
         .crd.crd--avatarHorizontal.crd--first.py-4.back-yellow

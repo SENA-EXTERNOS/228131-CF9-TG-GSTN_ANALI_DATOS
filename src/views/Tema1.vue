@@ -195,10 +195,11 @@
     
     h3.pt-5 Modelos, políticas y reglas
     .row.mb-5
-      .col-10.position-relative.pr-3
+      .col-lg-10.position-relative.pr-3
         .avatar
-          figure
-            img(src="@/assets/curso/temas/tema1/modelos.svg", alt="modelos", style="width: 350px;")
+          .col.d-lg-flex.d-none
+            figure
+              img(src="@/assets/curso/temas/tema1/modelos.svg", alt="modelos", style="width: 350px;")
         .crd.crd--avatarHorizontal.crd-py-4.back-yellow
           .row.align-items-center
             .col-12.ms-4.mt-4
